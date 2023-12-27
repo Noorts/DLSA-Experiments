@@ -1,5 +1,24 @@
 Commit ID: f748803
 
+### Sequence sources
+
+The sequences were provided / chosen by the course coordinator as part of a competition.
+
+#### Query
+
+Query comes from a protein (~340 bases)
+```
+GCTGCATGATATTGAAAAAATATCACCAAATAAAAAACGCCTTAGTAAGTATTTTTCAGCTTTTCATTCTGACT
+GCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAGAGTGTCTGATAGCAGCTTCTGAACTGGTTACCTGCCGT
+GAGTAAATTAAAATTTTATTGACTTAGGTCACTAAATACTTTAACCAATATAGGCATAGCGCACAGACAGATAA
+AAATTACAGAGTACACAACATCCATGAAACGCATTAGCACCACCATTACCACCACCATCACCATTACCACAGGT
+AACGGTGCGGGCTGACGACGTACAGGAAACACAGAAAAAAGCCCGCTAC
+```
+
+#### Target
+
+Extra-Large (XL) – Human Genome (~3B bases)
+https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_genomic.fna.gz
 
 ### Experiment Setup ###
 
