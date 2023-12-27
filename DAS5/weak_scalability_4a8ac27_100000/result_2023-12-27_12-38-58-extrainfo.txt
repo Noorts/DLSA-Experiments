@@ -1,0 +1,60 @@
+Commit ID: 4a8ac27
+
+### QUERY GENERATION ###
+
+def __main__():
+    for i in [1, 2, 4, 8, 16]:
+        targets = i * 400
+        generate_synthetic_data(
+            no_queries=5,
+            query_min_size=200,
+            query_max_size=1000,
+            no_targets=targets,
+            target_min_size=10000,
+            target_max_size=100000,
+            query_name=f"datasets/query_sequences_5.fasta",
+            database_name=f"datasets/target_sequences_{targets}.fasta",
+        )
+
+### EXPERIMENT SETUP ###
+
+clean_iterations = 2
+query_iterations = 5
+
+# Configure the experiments to be run here (append them to the "experiment_configs" list).
+for _ in range(clean_iterations):
+    for n_workers in [1]:
+        exp = default_experiment.copy()
+        exp["query_iterations"] = query_iterations
+        exp["n_workers"] = n_workers
+        exp["query_path"] = "datasets/query_sequences_5.fasta"
+        exp["target_path"] = "datasets/target_sequences_400.fasta"
+        experiment_configs.append(exp)
+    for n_workers in [2]:
+        exp = default_experiment.copy()
+        exp["query_iterations"] = query_iterations
+        exp["n_workers"] = n_workers
+        exp["query_path"] = "datasets/query_sequences_5.fasta"
+        exp["target_path"] = "datasets/target_sequences_800.fasta"
+        experiment_configs.append(exp)
+    for n_workers in [4]:
+        exp = default_experiment.copy()
+        exp["query_iterations"] = query_iterations
+        exp["n_workers"] = n_workers
+        exp["query_path"] = "datasets/query_sequences_5.fasta"
+        exp["target_path"] = "datasets/target_sequences_1600.fasta"
+        experiment_configs.append(exp)
+    for n_workers in [8]:
+        exp = default_experiment.copy()
+        exp["query_iterations"] = query_iterations
+        exp["n_workers"] = n_workers
+        exp["query_path"] = "datasets/query_sequences_5.fasta"
+        exp["target_path"] = "datasets/target_sequences_3200.fasta"
+        experiment_configs.append(exp)
+    for n_workers in [16]:
+        exp = default_experiment.copy()
+        exp["query_iterations"] = query_iterations
+        exp["n_workers"] = n_workers
+        exp["query_path"] = "datasets/query_sequences_5.fasta"
+        exp["target_path"] = "datasets/target_sequences_6400.fasta"
+        experiment_configs.append(exp)

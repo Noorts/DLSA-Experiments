@@ -1,0 +1,705 @@
+Job id: 4751371
+Worker ip: 10.149.0.59
+Master ip: 10.149.0.55
+--
+top - 14:03:07 up 104 days,  5:47,  0 users,  load average: 0.01, 0.18, 0.35
+Tasks: 396 total,   1 running, 395 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.7 us,  4.4 sy,  0.0 ni, 90.0 id,  2.7 wa,  0.0 hi,  0.2 si,  0.0 st
+KiB Mem : 65877692 total, 50868740 free,  1193764 used, 13815188 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63475128 avail Mem 
+--
+top - 14:03:12 up 104 days,  5:47,  0 users,  load average: 0.17, 0.21, 0.36
+Tasks: 405 total,   1 running, 404 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.7 us,  0.5 sy,  0.0 ni, 97.7 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50840532 free,  1207204 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63461520 avail Mem 
+--
+top - 14:03:17 up 104 days,  5:47,  0 users,  load average: 0.15, 0.20, 0.36
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50842388 free,  1205348 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63463420 avail Mem 
+--
+top - 14:03:22 up 104 days,  5:47,  0 users,  load average: 0.14, 0.20, 0.35
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50843752 free,  1203984 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63464788 avail Mem 
+--
+top - 14:03:27 up 104 days,  5:47,  0 users,  load average: 0.13, 0.20, 0.35
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50844108 free,  1203628 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63465184 avail Mem 
+--
+top - 14:03:32 up 104 days,  5:47,  0 users,  load average: 0.28, 0.23, 0.36
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 91.2 id,  8.7 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50844800 free,  1202936 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63465876 avail Mem 
+--
+top - 14:03:37 up 104 days,  5:47,  0 users,  load average: 0.82, 0.34, 0.40
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 90.6 id,  9.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50845652 free,  1202084 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63466728 avail Mem 
+--
+top - 14:03:42 up 104 days,  5:47,  0 users,  load average: 0.75, 0.33, 0.40
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.6 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50846708 free,  1201028 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63467788 avail Mem 
+--
+top - 14:03:47 up 104 days,  5:47,  0 users,  load average: 0.69, 0.33, 0.39
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50847200 free,  1200536 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63468280 avail Mem 
+--
+top - 14:03:52 up 104 days,  5:47,  0 users,  load average: 0.64, 0.32, 0.39
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50847900 free,  1199836 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63468980 avail Mem 
+--
+top - 14:03:57 up 104 days,  5:47,  0 users,  load average: 0.59, 0.32, 0.39
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50848700 free,  1199036 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63469780 avail Mem 
+--
+top - 14:04:02 up 104 days,  5:47,  0 users,  load average: 0.54, 0.31, 0.39
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.2 sy,  0.0 ni, 99.1 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50841352 free,  1206384 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63462540 avail Mem 
+--
+top - 14:04:07 up 104 days,  5:48,  0 users,  load average: 0.50, 0.31, 0.39
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50842560 free,  1205176 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63463748 avail Mem 
+--
+top - 14:04:12 up 104 days,  5:48,  0 users,  load average: 0.46, 0.30, 0.38
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50843120 free,  1204616 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63464308 avail Mem 
+--
+top - 14:04:17 up 104 days,  5:48,  0 users,  load average: 0.42, 0.30, 0.38
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50844624 free,  1203112 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63465812 avail Mem 
+--
+top - 14:04:22 up 104 days,  5:48,  0 users,  load average: 0.39, 0.29, 0.38
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50845596 free,  1202140 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63466784 avail Mem 
+--
+top - 14:04:27 up 104 days,  5:48,  0 users,  load average: 0.35, 0.29, 0.38
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50844436 free,  1203300 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 63465624 avail Mem 
+--
+top - 14:04:32 up 104 days,  5:48,  0 users,  load average: 0.33, 0.28, 0.38
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.2 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50308788 free,  1738948 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62929976 avail Mem 
+--
+top - 14:04:37 up 104 days,  5:48,  0 users,  load average: 0.30, 0.28, 0.37
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.2 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 50017736 free,  2030000 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62638924 avail Mem 
+--
+top - 14:04:42 up 104 days,  5:48,  0 users,  load average: 0.28, 0.27, 0.37
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.2 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49759884 free,  2287852 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62381052 avail Mem 
+--
+top - 14:04:47 up 104 days,  5:48,  0 users,  load average: 0.25, 0.27, 0.37
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.2 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49313880 free,  2733856 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61935496 avail Mem 
+--
+top - 14:04:52 up 104 days,  5:48,  0 users,  load average: 0.31, 0.28, 0.37
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.9 us,  1.6 sy,  0.0 ni, 75.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 40640312 free, 11407424 used, 13829956 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 53261500 avail Mem 
+--
+top - 14:04:57 up 104 days,  5:48,  0 users,  load average: 0.77, 0.38, 0.40
+Tasks: 410 total,   1 running, 409 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.6 us,  0.2 sy,  0.0 ni, 82.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 41133032 free, 10914700 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 53754220 avail Mem 
+--
+top - 14:05:02 up 104 days,  5:48,  0 users,  load average: 1.11, 0.45, 0.43
+Tasks: 409 total,   1 running, 408 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13.9 us,  0.0 sy,  0.0 ni, 86.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 42978220 free,  9069512 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 55599408 avail Mem 
+--
+top - 14:05:07 up 104 days,  5:49,  0 users,  load average: 1.26, 0.50, 0.44
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  0.0 sy,  0.0 ni, 95.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 45733680 free,  6314052 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 58354868 avail Mem 
+--
+top - 14:05:12 up 104 days,  5:49,  0 users,  load average: 1.24, 0.50, 0.45
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.3 sy,  0.0 ni, 98.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49621040 free,  2426692 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62242232 avail Mem 
+--
+top - 14:05:17 up 104 days,  5:49,  0 users,  load average: 1.14, 0.50, 0.44
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49622324 free,  2425408 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62243516 avail Mem 
+--
+top - 14:05:22 up 104 days,  5:49,  0 users,  load average: 1.05, 0.49, 0.44
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49623832 free,  2423900 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62245024 avail Mem 
+--
+top - 14:05:27 up 104 days,  5:49,  0 users,  load average: 0.96, 0.48, 0.44
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49625092 free,  2422640 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62246284 avail Mem 
+--
+top - 14:05:32 up 104 days,  5:49,  0 users,  load average: 0.89, 0.47, 0.44
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49625956 free,  2421776 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62247148 avail Mem 
+--
+top - 14:05:37 up 104 days,  5:49,  0 users,  load average: 0.82, 0.46, 0.43
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49626684 free,  2421048 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62247876 avail Mem 
+--
+top - 14:05:42 up 104 days,  5:49,  0 users,  load average: 0.75, 0.45, 0.43
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49627288 free,  2420444 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62248480 avail Mem 
+--
+top - 14:05:47 up 104 days,  5:49,  0 users,  load average: 0.69, 0.45, 0.43
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49627520 free,  2420212 used, 13829960 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62248712 avail Mem 
+--
+top - 14:05:52 up 104 days,  5:49,  0 users,  load average: 0.64, 0.44, 0.43
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49627848 free,  2419880 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62249044 avail Mem 
+--
+top - 14:05:58 up 104 days,  5:49,  0 users,  load average: 0.58, 0.43, 0.42
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49628312 free,  2419416 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62249508 avail Mem 
+--
+top - 14:06:03 up 104 days,  5:49,  0 users,  load average: 0.54, 0.43, 0.42
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.2 sy,  0.0 ni, 99.0 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49621448 free,  2426280 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62242644 avail Mem 
+--
+top - 14:06:08 up 104 days,  5:50,  0 users,  load average: 0.49, 0.42, 0.42
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49622156 free,  2425572 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62243352 avail Mem 
+--
+top - 14:06:13 up 104 days,  5:50,  0 users,  load average: 0.45, 0.41, 0.42
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49621644 free,  2426084 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62242840 avail Mem 
+--
+top - 14:06:18 up 104 days,  5:50,  0 users,  load average: 0.42, 0.41, 0.41
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49622600 free,  2425128 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62243796 avail Mem 
+--
+top - 14:06:23 up 104 days,  5:50,  0 users,  load average: 0.38, 0.40, 0.41
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49623252 free,  2424476 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62244448 avail Mem 
+--
+top - 14:06:28 up 104 days,  5:50,  0 users,  load average: 0.40, 0.40, 0.41
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49623276 free,  2424452 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62244472 avail Mem 
+--
+top - 14:06:33 up 104 days,  5:50,  0 users,  load average: 0.37, 0.39, 0.41
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49599708 free,  2448020 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 62220904 avail Mem 
+--
+top - 14:06:38 up 104 days,  5:50,  0 users,  load average: 0.42, 0.40, 0.41
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 49117136 free,  2930592 used, 13829964 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61738332 avail Mem 
+--
+top - 14:06:43 up 104 days,  5:50,  0 users,  load average: 0.38, 0.40, 0.41
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.2 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48688408 free,  3359316 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61309604 avail Mem 
+--
+top - 14:06:48 up 104 days,  5:50,  0 users,  load average: 0.35, 0.39, 0.41
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.2 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48429572 free,  3618152 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61050772 avail Mem 
+--
+top - 14:06:53 up 104 days,  5:50,  0 users,  load average: 0.57, 0.43, 0.42
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.4 us,  1.1 sy,  0.0 ni, 83.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 44463788 free,  7583936 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 57084988 avail Mem 
+--
+top - 14:06:58 up 104 days,  5:50,  0 users,  load average: 0.68, 0.46, 0.43
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.4 us,  0.0 sy,  0.0 ni, 90.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 44462984 free,  7584740 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 57084184 avail Mem 
+--
+top - 14:07:03 up 104 days,  5:50,  0 users,  load average: 0.71, 0.47, 0.43
+Tasks: 408 total,   2 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.2 us,  0.0 sy,  0.0 ni, 94.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47769836 free,  4277888 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60391036 avail Mem 
+--
+top - 14:07:08 up 104 days,  5:51,  0 users,  load average: 0.65, 0.46, 0.43
+Tasks: 408 total,   1 running, 407 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.2 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48956772 free,  3090952 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61577972 avail Mem 
+--
+top - 14:07:13 up 104 days,  5:51,  0 users,  load average: 0.60, 0.45, 0.43
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48956508 free,  3091216 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61577708 avail Mem 
+--
+top - 14:07:18 up 104 days,  5:51,  0 users,  load average: 0.55, 0.45, 0.43
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48957852 free,  3089872 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61579052 avail Mem 
+--
+top - 14:07:23 up 104 days,  5:51,  0 users,  load average: 0.51, 0.44, 0.42
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48959008 free,  3088716 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61580208 avail Mem 
+--
+top - 14:07:28 up 104 days,  5:51,  0 users,  load average: 0.46, 0.43, 0.42
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48959656 free,  3088068 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61580856 avail Mem 
+--
+top - 14:07:33 up 104 days,  5:51,  0 users,  load average: 0.43, 0.42, 0.42
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48960416 free,  3087308 used, 13829968 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61581616 avail Mem 
+--
+top - 14:07:38 up 104 days,  5:51,  0 users,  load average: 0.39, 0.42, 0.42
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48960720 free,  3087000 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61581924 avail Mem 
+--
+top - 14:07:43 up 104 days,  5:51,  0 users,  load average: 0.36, 0.41, 0.41
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48961388 free,  3086332 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61582592 avail Mem 
+--
+top - 14:07:48 up 104 days,  5:51,  0 users,  load average: 0.33, 0.40, 0.41
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48960352 free,  3087368 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61581556 avail Mem 
+--
+top - 14:07:53 up 104 days,  5:51,  0 users,  load average: 0.31, 0.40, 0.41
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48960680 free,  3087040 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61581884 avail Mem 
+--
+top - 14:07:58 up 104 days,  5:51,  0 users,  load average: 0.28, 0.39, 0.41
+Tasks: 407 total,   1 running, 406 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48955592 free,  3092128 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61576796 avail Mem 
+--
+top - 14:08:03 up 104 days,  5:51,  0 users,  load average: 0.26, 0.38, 0.40
+Tasks: 411 total,   1 running, 410 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.2 sy,  0.0 ni, 99.0 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48947100 free,  3100620 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61568304 avail Mem 
+--
+top - 14:08:08 up 104 days,  5:52,  0 users,  load average: 0.24, 0.38, 0.40
+Tasks: 406 total,   1 running, 405 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48942412 free,  3105308 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61563616 avail Mem 
+--
+top - 14:08:13 up 104 days,  5:52,  0 users,  load average: 0.22, 0.37, 0.40
+Tasks: 404 total,   1 running, 403 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48944112 free,  3103608 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61565316 avail Mem 
+--
+top - 14:08:18 up 104 days,  5:52,  0 users,  load average: 0.20, 0.37, 0.40
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48930948 free,  3116772 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61552152 avail Mem 
+--
+top - 14:08:23 up 104 days,  5:52,  0 users,  load average: 0.19, 0.36, 0.40
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48931952 free,  3115768 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61553156 avail Mem 
+--
+top - 14:08:28 up 104 days,  5:52,  0 users,  load average: 0.17, 0.35, 0.39
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48930064 free,  3117656 used, 13829972 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61551268 avail Mem 
+--
+top - 14:08:33 up 104 days,  5:52,  0 users,  load average: 0.16, 0.35, 0.39
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48568732 free,  3478984 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 61189936 avail Mem 
+--
+top - 14:08:38 up 104 days,  5:52,  0 users,  load average: 0.14, 0.34, 0.39
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.4 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47940736 free,  4106980 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60561940 avail Mem 
+--
+top - 14:08:43 up 104 days,  5:52,  0 users,  load average: 0.29, 0.37, 0.40
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.2 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48022688 free,  4025028 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60643896 avail Mem 
+--
+top - 14:08:48 up 104 days,  5:52,  0 users,  load average: 0.59, 0.43, 0.42
+Tasks: 402 total,   2 running, 400 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.2 us,  0.9 sy,  0.0 ni, 89.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 44204768 free,  7842948 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 56825976 avail Mem 
+--
+top - 14:08:53 up 104 days,  5:52,  0 users,  load average: 0.86, 0.49, 0.44
+Tasks: 402 total,   1 running, 401 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12.5 us,  0.0 sy,  0.0 ni, 87.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 44204508 free,  7843208 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 56825716 avail Mem 
+--
+top - 14:08:58 up 104 days,  5:52,  0 users,  load average: 0.87, 0.50, 0.44
+Tasks: 402 total,   1 running, 401 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  5.2 us,  0.2 sy,  0.0 ni, 94.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 46660212 free,  5387504 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59281420 avail Mem 
+--
+top - 14:09:03 up 104 days,  5:52,  0 users,  load average: 0.88, 0.50, 0.44
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.1 us,  0.0 sy,  0.0 ni, 96.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 46661412 free,  5386304 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59282620 avail Mem 
+--
+top - 14:09:08 up 104 days,  5:53,  0 users,  load average: 0.81, 0.50, 0.44
+Tasks: 398 total,   2 running, 396 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.3 us,  0.1 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48291352 free,  3756364 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60912560 avail Mem 
+--
+top - 14:09:13 up 104 days,  5:53,  0 users,  load average: 0.75, 0.49, 0.44
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48291824 free,  3755892 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60913032 avail Mem 
+--
+top - 14:09:18 up 104 days,  5:53,  0 users,  load average: 0.69, 0.48, 0.44
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48292612 free,  3755104 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60913820 avail Mem 
+--
+top - 14:09:23 up 104 days,  5:53,  0 users,  load average: 0.63, 0.47, 0.43
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48293232 free,  3754484 used, 13829976 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60914440 avail Mem 
+--
+top - 14:09:28 up 104 days,  5:53,  0 users,  load average: 0.58, 0.46, 0.43
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48293896 free,  3753816 used, 13829980 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60915104 avail Mem 
+--
+top - 14:09:33 up 104 days,  5:53,  0 users,  load average: 0.54, 0.46, 0.43
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48294640 free,  3753072 used, 13829980 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60915852 avail Mem 
+--
+top - 14:09:38 up 104 days,  5:53,  0 users,  load average: 0.49, 0.45, 0.43
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48296004 free,  3751708 used, 13829980 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60917216 avail Mem 
+--
+top - 14:09:43 up 104 days,  5:53,  0 users,  load average: 0.45, 0.44, 0.42
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48296804 free,  3750908 used, 13829980 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60918016 avail Mem 
+--
+top - 14:09:48 up 104 days,  5:53,  0 users,  load average: 0.42, 0.43, 0.42
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48297424 free,  3750288 used, 13829980 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60918636 avail Mem 
+--
+top - 14:09:53 up 104 days,  5:53,  0 users,  load average: 0.38, 0.43, 0.42
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48297988 free,  3749724 used, 13829980 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60919200 avail Mem 
+--
+top - 14:09:58 up 104 days,  5:53,  0 users,  load average: 0.35, 0.42, 0.42
+Tasks: 398 total,   1 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48298448 free,  3749264 used, 13829980 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60919660 avail Mem 
+--
+top - 14:10:03 up 104 days,  5:53,  0 users,  load average: 0.32, 0.41, 0.41
+Tasks: 402 total,   1 running, 401 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.2 sy,  0.0 ni, 99.0 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48294144 free,  3753560 used, 13829988 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60915364 avail Mem 
+--
+top - 14:10:09 up 104 days,  5:54,  0 users,  load average: 0.30, 0.41, 0.41
+Tasks: 402 total,   1 running, 401 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48295572 free,  3752132 used, 13829988 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60916792 avail Mem 
+--
+top - 14:10:14 up 104 days,  5:54,  0 users,  load average: 0.27, 0.40, 0.41
+Tasks: 402 total,   1 running, 401 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48296560 free,  3751144 used, 13829988 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60917780 avail Mem 
+--
+top - 14:10:19 up 104 days,  5:54,  0 users,  load average: 0.25, 0.39, 0.41
+Tasks: 402 total,   1 running, 401 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48297048 free,  3750652 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60918272 avail Mem 
+--
+top - 14:10:24 up 104 days,  5:54,  0 users,  load average: 0.71, 0.49, 0.44
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.2 sy,  0.0 ni, 97.3 id,  2.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 48154684 free,  3893016 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60775908 avail Mem 
+--
+top - 14:10:29 up 104 days,  5:54,  0 users,  load average: 1.22, 0.59, 0.47
+Tasks: 404 total,   1 running, 403 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 90.1 id,  9.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47726336 free,  4321364 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 60347560 avail Mem 
+--
+top - 14:10:34 up 104 days,  5:54,  0 users,  load average: 1.12, 0.58, 0.47
+Tasks: 404 total,   1 running, 403 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.4 sy,  0.0 ni, 94.2 id,  5.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47337632 free,  4710068 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59958856 avail Mem 
+--
+top - 14:10:39 up 104 days,  5:54,  0 users,  load average: 1.03, 0.57, 0.47
+Tasks: 402 total,   1 running, 401 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.3 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47012756 free,  5034944 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59633980 avail Mem 
+--
+top - 14:10:44 up 104 days,  5:54,  0 users,  load average: 3.19, 1.03, 0.62
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.0 us,  2.0 sy,  0.0 ni, 89.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 39258556 free, 12789144 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 51879780 avail Mem 
+--
+top - 14:10:49 up 104 days,  5:54,  0 users,  load average: 3.41, 1.11, 0.64
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.6 us,  0.2 sy,  0.0 ni, 79.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 38459112 free, 13588588 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 51080336 avail Mem 
+--
+top - 14:10:54 up 104 days,  5:54,  0 users,  load average: 3.38, 1.14, 0.66
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.8 us,  0.0 sy,  0.0 ni, 84.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 40001472 free, 12046228 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 52622692 avail Mem 
+--
+top - 14:10:59 up 104 days,  5:54,  0 users,  load average: 3.27, 1.16, 0.66
+Tasks: 403 total,   1 running, 402 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.3 us,  0.1 sy,  0.0 ni, 91.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 43599592 free,  8448108 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 56220812 avail Mem 
+--
+top - 14:11:04 up 104 days,  5:54,  0 users,  load average: 3.09, 1.15, 0.67
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.1 us,  0.0 sy,  0.0 ni, 96.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 43600544 free,  8447156 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 56221768 avail Mem 
+--
+top - 14:11:09 up 104 days,  5:55,  0 users,  load average: 2.84, 1.14, 0.66
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.2 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47215728 free,  4831972 used, 13829992 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59836952 avail Mem 
+--
+top - 14:11:14 up 104 days,  5:55,  0 users,  load average: 2.61, 1.12, 0.66
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47215680 free,  4832016 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59836908 avail Mem 
+--
+top - 14:11:19 up 104 days,  5:55,  0 users,  load average: 2.40, 1.10, 0.66
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47216496 free,  4831200 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59837724 avail Mem 
+--
+top - 14:11:24 up 104 days,  5:55,  0 users,  load average: 2.21, 1.08, 0.65
+Tasks: 400 total,   2 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47217948 free,  4829748 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59839176 avail Mem 
+--
+top - 14:11:29 up 104 days,  5:55,  0 users,  load average: 2.03, 1.06, 0.65
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47218176 free,  4829520 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59839404 avail Mem 
+--
+top - 14:11:34 up 104 days,  5:55,  0 users,  load average: 1.87, 1.04, 0.65
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47219060 free,  4828636 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59840288 avail Mem 
+--
+top - 14:11:39 up 104 days,  5:55,  0 users,  load average: 1.72, 1.03, 0.64
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47220036 free,  4827660 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59841264 avail Mem 
+--
+top - 14:11:44 up 104 days,  5:55,  0 users,  load average: 1.58, 1.01, 0.64
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47221044 free,  4826652 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59842272 avail Mem 
+--
+top - 14:11:49 up 104 days,  5:55,  0 users,  load average: 1.46, 0.99, 0.64
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47221624 free,  4826072 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59842852 avail Mem 
+--
+top - 14:11:54 up 104 days,  5:55,  0 users,  load average: 1.34, 0.98, 0.63
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47222616 free,  4825080 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59843844 avail Mem 
+--
+top - 14:11:59 up 104 days,  5:55,  0 users,  load average: 1.23, 0.96, 0.63
+Tasks: 400 total,   1 running, 399 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47222732 free,  4824964 used, 13829996 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59843960 avail Mem 
+--
+top - 14:12:04 up 104 days,  5:55,  0 users,  load average: 1.13, 0.94, 0.63
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.3 sy,  0.0 ni, 98.9 id,  0.4 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 47171472 free,  4876220 used, 13830000 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59792704 avail Mem 
+--
+top - 14:12:09 up 104 days,  5:56,  0 users,  load average: 1.12, 0.95, 0.63
+Tasks: 399 total,   2 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.5 sy,  0.0 ni, 99.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 46460536 free,  5587152 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59081768 avail Mem 
+--
+top - 14:12:14 up 104 days,  5:56,  0 users,  load average: 1.03, 0.93, 0.62
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.2 sy,  0.0 ni, 99.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 46312868 free,  5734820 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 58934100 avail Mem 
+--
+top - 14:12:19 up 104 days,  5:56,  0 users,  load average: 0.95, 0.91, 0.62
+Tasks: 399 total,   2 running, 397 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 45914852 free,  6132836 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 58535588 avail Mem 
+--
+top - 14:12:24 up 104 days,  5:56,  0 users,  load average: 1.27, 0.98, 0.64
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 10.2 us,  1.5 sy,  0.0 ni, 88.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 40039232 free, 12008456 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 52660468 avail Mem 
+--
+top - 14:12:29 up 104 days,  5:56,  0 users,  load average: 1.41, 1.02, 0.66
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12.5 us,  0.0 sy,  0.0 ni, 87.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 40038376 free, 12009312 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 52659612 avail Mem 
+--
+top - 14:12:34 up 104 days,  5:56,  0 users,  load average: 1.62, 1.06, 0.67
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11.5 us,  0.0 sy,  0.0 ni, 88.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 42138612 free,  9909076 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 54759848 avail Mem 
+--
+top - 14:12:39 up 104 days,  5:56,  0 users,  load average: 1.57, 1.06, 0.68
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.8 us,  0.1 sy,  0.0 ni, 95.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 45254900 free,  6792788 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 57876136 avail Mem 
+--
+top - 14:12:44 up 104 days,  5:56,  0 users,  load average: 1.44, 1.05, 0.67
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.2 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 46434704 free,  5612984 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59055940 avail Mem 
+--
+top - 14:12:49 up 104 days,  5:56,  0 users,  load average: 1.33, 1.03, 0.67
+Tasks: 399 total,   1 running, 398 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 65877692 total, 46436332 free,  5611356 used, 13830004 buff/cache
+KiB Swap: 33554428 total, 32366696 free,  1187732 used. 59057568 avail Mem 
