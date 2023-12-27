@@ -1,0 +1,41 @@
+10.149.0.56
+[INFO] [23-12-27 14:47:45] [master.settings] Settings: {'work_package_cleaning_interval': 5, 'worker_cleaning_interval': 5, 'worker_timeout': 10, 'scheduler_type': 'proportional', 'work_package_time_split_in_seconds': 180, 'enable_job_deletion': True, 'verify_work': False}
+[INFO] [23-12-27 14:47:45] [uvicorn.error] Started server process [14999]
+[INFO] [23-12-27 14:47:45] [uvicorn.error] Waiting for application startup.
+[INFO] [23-12-27 14:47:45] [uvicorn.error] Application startup complete.
+[INFO] [23-12-27 14:47:45] [uvicorn.error] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[INFO] [23-12-27 14:47:49] [master.worker.worker_collector] Registering worker with resources 1805 MCUPS
+[INFO] [23-12-27 14:47:49] [master.worker.worker_collector] Number of registered workers: 1
+[INFO] [23-12-27 14:47:49] [master.worker.worker_collector] Registering worker with resources 1818 MCUPS
+[INFO] [23-12-27 14:47:49] [master.worker.worker_collector] Number of registered workers: 2
+[INFO] [23-12-27 14:48:20] [master.job_queue.job_queue] Adding job to queue. Job has 8000 queries
+[INFO] [23-12-27 14:48:20] [master.work_package.work_package_collector] Created work package for worker with 3986 queries
+[INFO] [23-12-27 14:48:20] [master.work_package.work_package_collector] Created work package for worker with 4014 queries
+[INFO] [23-12-27 14:48:35] [master.work_package.work_package_collector] Work package 0eb1167b-4835-4891-94fd-c752d201f51e is done
+[INFO] [23-12-27 14:48:36] [master.work_package.work_package_collector] Work package e21c1190-9a3e-47fb-85e0-d68f0cef2196 is done
+[INFO] [23-12-27 14:48:36] [master.work_package.work_package_collector] Work package e21c1190-9a3e-47fb-85e0-d68f0cef2196 is done
+[INFO] [23-12-27 14:48:38] [master.job_queue.job_queue] Adding job to queue. Job has 8000 queries
+[INFO] [23-12-27 14:48:38] [master.work_package.work_package_collector] Created work package for worker with 3986 queries
+[INFO] [23-12-27 14:48:39] [master.work_package.work_package_collector] Created work package for worker with 4014 queries
+[INFO] [23-12-27 14:48:54] [master.work_package.work_package_collector] Work package 2df38ce7-9e09-4681-88fe-0bad58c7a50a is done
+[INFO] [23-12-27 14:48:55] [master.work_package.work_package_collector] Work package 1d987004-7532-4205-8907-5c4fc4bc927a is done
+[INFO] [23-12-27 14:48:55] [master.work_package.work_package_collector] Work package 1d987004-7532-4205-8907-5c4fc4bc927a is done
+[INFO] [23-12-27 14:48:57] [master.job_queue.job_queue] Adding job to queue. Job has 8000 queries
+[INFO] [23-12-27 14:48:57] [master.work_package.work_package_collector] Created work package for worker with 3986 queries
+[INFO] [23-12-27 14:48:57] [master.work_package.work_package_collector] Created work package for worker with 4014 queries
+[INFO] [23-12-27 14:49:12] [master.work_package.work_package_collector] Work package 3f0125ec-c0ed-4c2f-b98d-64d4135d8b2f is done
+[INFO] [23-12-27 14:49:14] [master.work_package.work_package_collector] Work package 1c455f3e-9123-4f7e-a8d1-45772fa933ca is done
+[INFO] [23-12-27 14:49:14] [master.work_package.work_package_collector] Work package 1c455f3e-9123-4f7e-a8d1-45772fa933ca is done
+[INFO] [23-12-27 14:49:16] [master.job_queue.job_queue] Adding job to queue. Job has 8000 queries
+[INFO] [23-12-27 14:49:17] [master.work_package.work_package_collector] Created work package for worker with 4015 queries
+[INFO] [23-12-27 14:49:17] [master.work_package.work_package_collector] Created work package for worker with 3985 queries
+[INFO] [23-12-27 14:49:32] [master.work_package.work_package_collector] Work package a1599f8b-10b2-4b87-afdf-91d4f7eba5c0 is done
+[INFO] [23-12-27 14:49:32] [master.work_package.work_package_collector] Work package 9ae2b442-3e9c-4000-b2bc-31703c1af609 is done
+[INFO] [23-12-27 14:49:32] [master.work_package.work_package_collector] Work package 9ae2b442-3e9c-4000-b2bc-31703c1af609 is done
+[INFO] [23-12-27 14:49:35] [master.job_queue.job_queue] Adding job to queue. Job has 8000 queries
+[INFO] [23-12-27 14:49:35] [master.work_package.work_package_collector] Created work package for worker with 4015 queries
+[INFO] [23-12-27 14:49:35] [master.work_package.work_package_collector] Created work package for worker with 3985 queries
+[INFO] [23-12-27 14:49:53] [master.work_package.work_package_collector] Work package d3d062b3-b20e-4768-aec0-7afc668ead49 is done
+[INFO] [23-12-27 14:49:53] [master.work_package.work_package_collector] Work package aabd7d83-8107-43b8-b745-3566881604db is done
+[INFO] [23-12-27 14:49:53] [master.work_package.work_package_collector] Work package aabd7d83-8107-43b8-b745-3566881604db is done
+slurmstepd: error: *** JOB 4753625 ON node056 CANCELLED AT 2023-12-27T14:49:54 ***
