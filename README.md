@@ -14,6 +14,8 @@ In the DAS5 directory, subdirectories can be found that contain:
 2. An `...-extrainfo.txt` file which contains the experimental setup and if relevant the settings used to produce synthetic queries.
 3. SLURM output files from both the master and worker nodes. System utilization metrics can be found in the `...-sys.out` files.
 
+Note: the `elapsed_time` and `computation_time` measurements are stored in the result files in **milliseconds**.
+
 ### Plotting
 
 Contains the code used to create the plots contained in the report.
