@@ -1,0 +1,37 @@
+Commit ID: 988e281
+
+### Sequence sources
+
+The sequences were provided / chosen by the course coordinator as part of a competition.
+
+#### Query
+
+Query comes from a protein (~340 bases)
+```
+GCTGCATGATATTGAAAAAATATCACCAAATAAAAAACGCCTTAGTAAGTATTTTTCAGCTTTTCATTCTGACT
+GCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAGAGTGTCTGATAGCAGCTTCTGAACTGGTTACCTGCCGT
+GAGTAAATTAAAATTTTATTGACTTAGGTCACTAAATACTTTAACCAATATAGGCATAGCGCACAGACAGATAA
+AAATTACAGAGTACACAACATCCATGAAACGCATTAGCACCACCATTACCACCACCATCACCATTACCACAGGT
+AACGGTGCGGGCTGACGACGTACAGGAAACACAGAAAAAAGCCCGCTAC
+```
+
+#### Target
+
+Large (L) – C. Elegans (~100M bases)
+https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000002985.6/
+
+### Experiment Setup
+
+"query_path": "datasets/query.fna",
+"target_path": "datasets/large.fna",
+
+clean_iterations = 2
+query_iterations = 5
+
+# Configure the experiments to be run here (append them to the "experiment_configs" list).
+for _ in range(clean_iterations):
+    for n_workers in [1, 2, 4, 8, 16]:
+        exp = default_experiment.copy()
+        exp["query_iterations"] = query_iterations
+        exp["n_workers"] = n_workers
+        experiment_configs.append(exp)

@@ -1,0 +1,30 @@
+10.149.0.36
+[INFO] [24-01-02 09:45:20] [master.settings] Settings: {'work_package_cleaning_interval': 5, 'worker_cleaning_interval': 5, 'worker_timeout': 10, 'scheduler_type': 'proportional', 'work_package_time_split_in_seconds': 180, 'enable_job_deletion': True, 'verify_work': False}
+[INFO] [24-01-02 09:45:20] [uvicorn.error] Started server process [7123]
+[INFO] [24-01-02 09:45:20] [uvicorn.error] Waiting for application startup.
+[INFO] [24-01-02 09:45:20] [uvicorn.error] Application startup complete.
+[INFO] [24-01-02 09:45:20] [uvicorn.error] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[INFO] [24-01-02 09:45:22] [master.worker.worker_collector] Registering worker with resources 1894 MCUPS
+[INFO] [24-01-02 09:45:22] [master.worker.worker_collector] Number of registered workers: 1
+[INFO] [24-01-02 09:45:26] [master.job_queue.job_queue] Adding job to queue. Job has 7 queries
+[INFO] [24-01-02 09:45:26] [master.work_package.work_package_collector] Created work package for worker with 7 queries
+[INFO] [24-01-02 09:45:29] [master.work_package.work_package_collector] Work package 9b1c44b9-60ba-4324-8ca7-57f253150054 is done
+[INFO] [24-01-02 09:45:29] [master.work_package.work_package_collector] Work package 9b1c44b9-60ba-4324-8ca7-57f253150054 is done
+[INFO] [24-01-02 09:45:32] [master.job_queue.job_queue] Adding job to queue. Job has 7 queries
+[INFO] [24-01-02 09:45:33] [master.work_package.work_package_collector] Created work package for worker with 7 queries
+[INFO] [24-01-02 09:45:36] [master.work_package.work_package_collector] Work package a12db8e9-e9ba-489f-8f17-eee762c54973 is done
+[INFO] [24-01-02 09:45:36] [master.work_package.work_package_collector] Work package a12db8e9-e9ba-489f-8f17-eee762c54973 is done
+[INFO] [24-01-02 09:45:39] [master.job_queue.job_queue] Adding job to queue. Job has 7 queries
+[INFO] [24-01-02 09:45:39] [master.work_package.work_package_collector] Created work package for worker with 7 queries
+[INFO] [24-01-02 09:45:42] [master.work_package.work_package_collector] Work package ca5e86bd-f12b-45fb-ae4e-d5e9e697e5ef is done
+[INFO] [24-01-02 09:45:42] [master.work_package.work_package_collector] Work package ca5e86bd-f12b-45fb-ae4e-d5e9e697e5ef is done
+[INFO] [24-01-02 09:45:45] [master.job_queue.job_queue] Adding job to queue. Job has 7 queries
+[INFO] [24-01-02 09:45:45] [master.work_package.work_package_collector] Created work package for worker with 7 queries
+[INFO] [24-01-02 09:45:48] [master.work_package.work_package_collector] Work package 71356f77-6e93-4363-87c3-a67c4c0b62c3 is done
+[INFO] [24-01-02 09:45:48] [master.work_package.work_package_collector] Work package 71356f77-6e93-4363-87c3-a67c4c0b62c3 is done
+[INFO] [24-01-02 09:45:51] [master.job_queue.job_queue] Adding job to queue. Job has 7 queries
+[INFO] [24-01-02 09:45:51] [master.work_package.work_package_collector] Created work package for worker with 7 queries
+[INFO] [24-01-02 09:45:55] [master.work_package.work_package_collector] Work package e51f9717-9314-48be-8af7-4b4a8ed7900c is done
+[INFO] [24-01-02 09:45:55] [master.work_package.work_package_collector] Work package e51f9717-9314-48be-8af7-4b4a8ed7900c is done
+slurmstepd: error: *** JOB 4754562 ON node036 CANCELLED AT 2024-01-02T09:45:55 ***
+[INFO] [24-01-02 09:45:55] [uvicorn.error] Shutting down

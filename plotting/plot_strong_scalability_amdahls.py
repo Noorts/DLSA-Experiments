@@ -11,7 +11,7 @@ def amdahl(s, p):
 ### PARSE RESULT FILE ###
 
 # Path to your JSON file
-json_file_path = './DAS5/strong_scalability_4a8ac27_synthetic/result_2023-12-27_14-34-28.json'
+json_file_path = './DAS5/strong_scalability_4a8ac27_synthetic_8000/result_2023-12-27_14-34-28.json'
 
 # Load JSON data
 with open(json_file_path, 'r') as file:

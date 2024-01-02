@@ -1,0 +1,878 @@
+10.149.0.68
+[INFO] [24-01-02 10:35:38] [master.settings] Settings: {'work_package_cleaning_interval': 5, 'worker_cleaning_interval': 5, 'worker_timeout': 10, 'scheduler_type': 'proportional', 'work_package_time_split_in_seconds': 180, 'enable_job_deletion': True, 'verify_work': False}
+[INFO] [24-01-02 10:35:38] [uvicorn.error] Started server process [18404]
+[INFO] [24-01-02 10:35:38] [uvicorn.error] Waiting for application startup.
+[INFO] [24-01-02 10:35:38] [uvicorn.error] Application startup complete.
+[INFO] [24-01-02 10:35:38] [uvicorn.error] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Registering worker with resources 1883 MCUPS
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Number of registered workers: 1
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Registering worker with resources 1822 MCUPS
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Number of registered workers: 2
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Registering worker with resources 1828 MCUPS
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Number of registered workers: 3
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Registering worker with resources 1808 MCUPS
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Number of registered workers: 4
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Registering worker with resources 1783 MCUPS
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Number of registered workers: 5
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Registering worker with resources 1794 MCUPS
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Number of registered workers: 6
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Registering worker with resources 1826 MCUPS
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Number of registered workers: 7
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Registering worker with resources 1881 MCUPS
+[INFO] [24-01-02 10:35:41] [master.worker.worker_collector] Number of registered workers: 8
+[INFO] [24-01-02 10:36:10] [master.job_queue.job_queue] Adding job to queue. Job has 16000 queries
+[INFO] [24-01-02 10:36:10] [master.work_package.work_package_collector] Created work package for worker with 2061 queries
+[INFO] [24-01-02 10:36:10] [master.work_package.work_package_collector] Created work package for worker with 1994 queries
+[INFO] [24-01-02 10:36:10] [master.work_package.work_package_collector] Created work package for worker with 2000 queries
+[INFO] [24-01-02 10:36:10] [master.work_package.work_package_collector] Created work package for worker with 1978 queries
+[INFO] [24-01-02 10:36:10] [master.work_package.work_package_collector] Created work package for worker with 1950 queries
+[INFO] [24-01-02 10:36:10] [master.work_package.work_package_collector] Created work package for worker with 1963 queries
+[INFO] [24-01-02 10:36:10] [master.work_package.work_package_collector] Created work package for worker with 1997 queries
+[INFO] [24-01-02 10:36:10] [master.work_package.work_package_collector] Created work package for worker with 2057 queries
+[INFO] [24-01-02 10:36:29] [master.work_package.work_package_collector] Work package 90a03729-fc3b-42bd-b1bc-5bb361b73d96 is done
+[INFO] [24-01-02 10:36:29] [master.work_package.work_package_collector] Work package 6eff4af3-a343-4a05-9217-a38cc5204281 is done
+[INFO] [24-01-02 10:36:30] [master.work_package.work_package_collector] Work package cb824386-6918-4bc6-8fc6-6ddf1d00028d is done
+[INFO] [24-01-02 10:36:30] [master.work_package.work_package_collector] Work package 8ccac37e-e052-484b-96f7-2d52b0f597eb is done
+[INFO] [24-01-02 10:36:30] [master.work_package.work_package_collector] Work package 134672cf-deac-47ed-885c-b2e08a9f2c0f is done
+[INFO] [24-01-02 10:36:30] [master.work_package.work_package_collector] Work package ce69ea5e-581c-41ec-bfb0-7293fa500e3b is done
+[INFO] [24-01-02 10:36:30] [master.work_package.work_package_collector] Work package 52d7e20d-aa97-477c-a6be-32c8f61de484 is done
+[INFO] [24-01-02 10:36:30] [master.work_package.work_package_collector] Work package 7261a931-14dc-4f1c-852b-c21a90996730 is done
+[INFO] [24-01-02 10:36:30] [master.work_package.work_package_collector] Work package 7261a931-14dc-4f1c-852b-c21a90996730 is done
+[INFO] [24-01-02 10:36:35] [master.job_queue.job_queue] Adding job to queue. Job has 16000 queries
+[INFO] [24-01-02 10:36:35] [master.work_package.work_package_collector] Created work package for worker with 1998 queries
+[INFO] [24-01-02 10:36:35] [master.work_package.work_package_collector] Created work package for worker with 1963 queries
+[INFO] [24-01-02 10:36:35] [master.work_package.work_package_collector] Created work package for worker with 2000 queries
+[INFO] [24-01-02 10:36:35] [master.work_package.work_package_collector] Created work package for worker with 1951 queries
+[INFO] [24-01-02 10:36:35] [master.work_package.work_package_collector] Created work package for worker with 1978 queries
+[INFO] [24-01-02 10:36:35] [master.work_package.work_package_collector] Created work package for worker with 2060 queries
+[INFO] [24-01-02 10:36:35] [master.work_package.work_package_collector] Created work package for worker with 1993 queries
+[INFO] [24-01-02 10:36:35] [master.work_package.work_package_collector] Created work package for worker with 2057 queries
+[INFO] [24-01-02 10:36:52] [master.work_package.work_package_collector] Work package aca6b75c-1081-4b09-9b72-432ee1c6cdb2 is done
+[INFO] [24-01-02 10:36:53] [master.work_package.work_package_collector] Work package 5097ec9d-660d-4015-afdf-123c09f79f46 is done
+[INFO] [24-01-02 10:36:53] [master.work_package.work_package_collector] Work package cf9bb7fc-1040-4a52-b79f-6f83692b060c is done
+[INFO] [24-01-02 10:36:53] [master.work_package.work_package_collector] Work package 8baff51b-256c-4c6a-af6b-bf8adf6dc85f is done
+[INFO] [24-01-02 10:36:53] [master.work_package.work_package_collector] Work package 5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c is done
+[INFO] [24-01-02 10:36:53] [master.work_package.work_package_collector] Work package c18c46de-92cf-4d8d-98c0-6daa497eaf01 is done
+[INFO] [24-01-02 10:36:53] [master.work_package.work_package_collector] Work package 91f21976-acbe-442e-a260-8a1768a28390 is done
+[INFO] [24-01-02 10:36:53] [master.work_package.work_package_collector] Work package 4042e3ac-ad05-47dc-b8a1-7704db66cae5 is done
+[INFO] [24-01-02 10:36:53] [master.work_package.work_package_collector] Work package 4042e3ac-ad05-47dc-b8a1-7704db66cae5 is done
+[INFO] [24-01-02 10:36:58] [master.job_queue.job_queue] Adding job to queue. Job has 16000 queries
+[INFO] [24-01-02 10:36:58] [master.work_package.work_package_collector] Created work package for worker with 2000 queries
+[INFO] [24-01-02 10:36:58] [master.work_package.work_package_collector] Created work package for worker with 2061 queries
+[INFO] [24-01-02 10:36:58] [master.work_package.work_package_collector] Created work package for worker with 2058 queries
+[INFO] [24-01-02 10:36:58] [master.work_package.work_package_collector] Created work package for worker with 1994 queries
+[INFO] [24-01-02 10:36:58] [master.work_package.work_package_collector] Created work package for worker with 1950 queries
+[INFO] [24-01-02 10:36:58] [master.work_package.work_package_collector] Created work package for worker with 1978 queries
+[INFO] [24-01-02 10:36:58] [master.work_package.work_package_collector] Created work package for worker with 1963 queries
+[INFO] [24-01-02 10:36:58] [master.work_package.work_package_collector] Created work package for worker with 1996 queries
+POST http://10.149.0.68:8000/job/format/multipart 1.74s
+POST http://10.149.0.68:8000/work/raw 0.21s
+POST http://10.149.0.68:8000/work/raw 0.21s
+POST http://10.149.0.68:8000/work/raw 0.21s
+POST http://10.149.0.68:8000/work/raw 0.21s
+POST http://10.149.0.68:8000/work/raw 0.21s
+POST http://10.149.0.68:8000/work/raw 0.21s
+POST http://10.149.0.68:8000/work/raw 0.21s
+POST http://10.149.0.68:8000/work/raw 0.21s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.13s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.13s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.13s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.13s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 0.13s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.13s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.13s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.13s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.13s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.13s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.13s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.13s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 0.13s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.13s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.13s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.13s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.21s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.21s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 0.21s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.21s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.21s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.21s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.21s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.21s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.39s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 0.39s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.39s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.39s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.39s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.39s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.39s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.39s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 0.39s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.39s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.39s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.39s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.39s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.39s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.39s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.39s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.39s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.39s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.39s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.39s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.39s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.39s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.39s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.39s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.39s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.39s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.39s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.39s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.39s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.39s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.39s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.39s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.39s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.39s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.39s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.39s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.39s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.39s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.39s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.60s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.60s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.63s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.63s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.63s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.63s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 0.63s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.63s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.63s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.63s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 0.63s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.63s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 0.63s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.63s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.63s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.63s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.63s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.63s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 0.63s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 0.63s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 0.63s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.63s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 0.32s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 0.32s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.31s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 1.14s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 1.14s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/90a03729-fc3b-42bd-b1bc-5bb361b73d96/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/6eff4af3-a343-4a05-9217-a38cc5204281/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.14s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.14s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.14s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.14s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.27s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.27s
+POST http://10.149.0.68:8000/work/cb824386-6918-4bc6-8fc6-6ddf1d00028d/result 1.27s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.27s
+POST http://10.149.0.68:8000/work/8ccac37e-e052-484b-96f7-2d52b0f597eb/result 1.27s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.29s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.29s
+POST http://10.149.0.68:8000/work/134672cf-deac-47ed-885c-b2e08a9f2c0f/result 1.29s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.29s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.29s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.29s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.29s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.29s
+POST http://10.149.0.68:8000/work/ce69ea5e-581c-41ec-bfb0-7293fa500e3b/result 1.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.29s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 1.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 1.29s
+POST http://10.149.0.68:8000/work/52d7e20d-aa97-477c-a6be-32c8f61de484/result 0.28s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.28s
+computation time:  20115266215
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.29s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.12s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.12s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.12s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.12s
+POST http://10.149.0.68:8000/worker/pulse 0.12s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.12s
+POST http://10.149.0.68:8000/work/7261a931-14dc-4f1c-852b-c21a90996730/result 0.12s
+POST http://10.149.0.68:8000/worker/pulse 0.12s
+POST http://10.149.0.68:8000/worker/pulse 0.12s
+POST http://10.149.0.68:8000/worker/pulse 0.12s
+POST http://10.149.0.68:8000/worker/pulse 0.12s
+POST http://10.149.0.68:8000/worker/pulse 0.12s
+POST http://10.149.0.68:8000/worker/pulse 0.12s
+POST http://10.149.0.68:8000/worker/pulse 0.12s
+GET http://10.149.0.68:8000/job/e464a5c2-a2e5-4231-9a0b-82cfdfafe62e/result 0.53s
+POST http://10.149.0.68:8000/job/format/multipart 1.83s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+GET http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/sequence/e156aa40-b7c6-4a26-9cd1-23351f1dcc3f/dcd6579e-ad53-4fbf-a8d1-8f14b4039406 0.13s
+GET http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/sequence/7e19ed4b-b8a3-4209-a478-2b272572bba7/390ddc7c-7bd1-410c-b4bb-efcbac76d4a1 0.13s
+GET http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/sequence/d9d56c33-5d61-44d2-9983-d1f8f5f5ef5c/de512e34-80f3-479c-a173-d2559a3f1bd3 0.13s
+GET http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/sequence/5f5f6c63-8712-4bdb-a41c-6c28e15b602c/9634f92e-f520-4375-9f54-58d142e36999 0.13s
+GET http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/sequence/8683020f-b8d1-416a-be3e-eb3bd2b7e550/5606e91f-4b34-4824-ba46-e21437c3766d 0.13s
+GET http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/sequence/1d3666d1-7bc8-4d65-b98c-3c761683a4f2/f08e2d1c-6dfc-4f10-804e-8374be2440c2 0.13s
+GET http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/sequence/2fa9c6d8-64a4-4d21-829a-484e807f24aa/a374fb6e-4674-4861-8745-d82ff01937a3 0.12s
+GET http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/sequence/02e5b39d-a26e-4e9d-a84b-63fad615a900/dcd6579e-ad53-4fbf-a8d1-8f14b4039406 0.12s
+GET http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/sequence/7bfadc27-a17c-4c41-8348-c49aa60c1879/f08e2d1c-6dfc-4f10-804e-8374be2440c2 0.12s
+GET http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/sequence/aa536399-f9c5-4096-b8e8-8c9aae6b21a0/9634f92e-f520-4375-9f54-58d142e36999 0.12s
+GET http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/sequence/32ad3393-2432-4b75-99cd-cd2a513dea76/5606e91f-4b34-4824-ba46-e21437c3766d 0.12s
+GET http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/sequence/1ceaaf9f-a3eb-44fc-ba77-b0b4e1ff4262/51616d88-943c-4ee3-8d8b-a99a5228a963 0.12s
+GET http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/sequence/22e39533-5ecf-4cb5-b5ce-2eff5b6a2b2d/a374fb6e-4674-4861-8745-d82ff01937a3 0.12s
+GET http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/sequence/c784ad10-1f1a-4a72-9225-02a2e3ba4dcf/390ddc7c-7bd1-410c-b4bb-efcbac76d4a1 0.12s
+GET http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/sequence/8b54d67d-8f9f-4378-b448-df92cd902a13/de512e34-80f3-479c-a173-d2559a3f1bd3 0.12s
+GET http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/sequence/ff1b903a-28c7-4510-a727-b39c89488191/9634f92e-f520-4375-9f54-58d142e36999 0.12s
+GET http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/sequence/7c228893-425a-49b0-8e39-f9e2f1f8d639/390ddc7c-7bd1-410c-b4bb-efcbac76d4a1 0.12s
+GET http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/sequence/5f5f6c63-8712-4bdb-a41c-6c28e15b602c/5606e91f-4b34-4824-ba46-e21437c3766d 0.12s
+GET http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/sequence/144f866a-618e-438f-aa3a-09f5c9c8a6c0/a374fb6e-4674-4861-8745-d82ff01937a3 0.12s
+GET http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/sequence/47e5a489-19dd-4d30-98e3-2d19baf023c1/f08e2d1c-6dfc-4f10-804e-8374be2440c2 0.12s
+GET http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/sequence/9e859660-1842-4616-b4eb-459b0b6917b6/51616d88-943c-4ee3-8d8b-a99a5228a963 0.12s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.10s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.10s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.32s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.32s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.32s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.32s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.32s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.32s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.32s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.32s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.32s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.32s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.32s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.32s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.32s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.32s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.32s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.36s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.36s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.36s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.12s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.12s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.12s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.12s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.65s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.65s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.65s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.65s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.65s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.65s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.65s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.65s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.65s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.65s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.83s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.83s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.83s
+POST http://10.149.0.68:8000/work/aca6b75c-1081-4b09-9b72-432ee1c6cdb2/result 0.83s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.83s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.83s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.83s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.83s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.83s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.83s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.83s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.83s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 1.11s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 1.11s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 1.11s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 1.11s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 1.11s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.56s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.56s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.56s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.56s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.56s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.56s
+[INFO] [24-01-02 10:37:15] [master.work_package.work_package_collector] Work package e7f8b1a8-2068-46f2-b096-a8edd248bc5c is done
+[INFO] [24-01-02 10:37:15] [master.work_package.work_package_collector] Work package 3bfe771c-83a0-4564-be2d-c8d621135d39 is done
+[INFO] [24-01-02 10:37:15] [master.work_package.work_package_collector] Work package 77c48fb9-f5b1-4920-85e4-064c32c65a86 is done
+[INFO] [24-01-02 10:37:15] [master.work_package.work_package_collector] Work package b67fd509-5f29-40c0-a983-666a9eac44b5 is done
+[INFO] [24-01-02 10:37:15] [master.work_package.work_package_collector] Work package 3e6cef3a-6606-4b66-8b7f-881a1fb6999a is done
+[INFO] [24-01-02 10:37:15] [master.work_package.work_package_collector] Work package b5f5dfa5-48ff-4662-adfb-1cf141b36502 is done
+[INFO] [24-01-02 10:37:16] [master.work_package.work_package_collector] Work package e6827f6d-2632-40d7-9588-e61069b91c76 is done
+[INFO] [24-01-02 10:37:16] [master.work_package.work_package_collector] Work package 2e5e6a99-5855-4e76-855d-ada94026052f is done
+[INFO] [24-01-02 10:37:16] [master.work_package.work_package_collector] Work package 2e5e6a99-5855-4e76-855d-ada94026052f is done
+[INFO] [24-01-02 10:37:20] [master.job_queue.job_queue] Adding job to queue. Job has 16000 queries
+[INFO] [24-01-02 10:37:20] [master.work_package.work_package_collector] Created work package for worker with 1951 queries
+[INFO] [24-01-02 10:37:20] [master.work_package.work_package_collector] Created work package for worker with 1978 queries
+[INFO] [24-01-02 10:37:20] [master.work_package.work_package_collector] Created work package for worker with 1998 queries
+[INFO] [24-01-02 10:37:20] [master.work_package.work_package_collector] Created work package for worker with 1963 queries
+[INFO] [24-01-02 10:37:20] [master.work_package.work_package_collector] Created work package for worker with 2058 queries
+[INFO] [24-01-02 10:37:21] [master.work_package.work_package_collector] Created work package for worker with 2000 queries
+[INFO] [24-01-02 10:37:21] [master.work_package.work_package_collector] Created work package for worker with 1993 queries
+[INFO] [24-01-02 10:37:21] [master.work_package.work_package_collector] Created work package for worker with 2059 queries
+[INFO] [24-01-02 10:37:39] [master.work_package.work_package_collector] Work package 876b7be4-f0ba-4d21-a97f-3462ac715382 is done
+[INFO] [24-01-02 10:37:39] [master.work_package.work_package_collector] Work package 7baa3628-952d-4f8a-a018-3751690248dc is done
+[INFO] [24-01-02 10:37:40] [master.work_package.work_package_collector] Work package 52220c77-ffc4-493b-8dc7-5b67aba171f1 is done
+[INFO] [24-01-02 10:37:40] [master.work_package.work_package_collector] Work package 15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1 is done
+[INFO] [24-01-02 10:37:40] [master.work_package.work_package_collector] Work package 9c02b4f7-3128-49a5-99d7-998689845a04 is done
+[INFO] [24-01-02 10:37:40] [master.work_package.work_package_collector] Work package d7a727e8-e674-4b23-ad59-73b45a648508 is done
+[INFO] [24-01-02 10:37:40] [master.work_package.work_package_collector] Work package b0d63cd9-327f-4acc-8d36-5f53613fa113 is done
+[INFO] [24-01-02 10:37:40] [master.work_package.work_package_collector] Work package 66e9f4bd-52e6-41e4-a4d2-d5fafc344850 is done
+[INFO] [24-01-02 10:37:40] [master.work_package.work_package_collector] Work package 66e9f4bd-52e6-41e4-a4d2-d5fafc344850 is done
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.56s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.56s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.96s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.96s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/5097ec9d-660d-4015-afdf-123c09f79f46/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/cf9bb7fc-1040-4a52-b79f-6f83692b060c/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/8baff51b-256c-4c6a-af6b-bf8adf6dc85f/result 0.93s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.93s
+POST http://10.149.0.68:8000/work/5822e5e1-4d3c-42f7-8183-35fe4d8f4c2c/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.93s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.93s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.93s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.66s
+POST http://10.149.0.68:8000/work/c18c46de-92cf-4d8d-98c0-6daa497eaf01/result 0.66s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.66s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.66s
+POST http://10.149.0.68:8000/work/91f21976-acbe-442e-a260-8a1768a28390/result 0.66s
+computation time:  18862277788
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.68s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.68s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.68s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.14s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.14s
+POST http://10.149.0.68:8000/work/4042e3ac-ad05-47dc-b8a1-7704db66cae5/result 0.14s
+GET http://10.149.0.68:8000/job/51ad875c-388e-452e-8968-72729fd23a41/result 0.65s
+POST http://10.149.0.68:8000/job/format/multipart 1.69s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+POST http://10.149.0.68:8000/work/raw 0.15s
+GET http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/sequence/14cef047-b56f-4781-87ae-31a97bd7af49/de512e34-80f3-479c-a173-d2559a3f1bd3 0.21s
+GET http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/sequence/377277a9-325b-4cbd-8765-77a37f1482bd/5606e91f-4b34-4824-ba46-e21437c3766d 0.21s
+GET http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/sequence/e6948830-3a65-43f3-bbc2-a055f707b265/a374fb6e-4674-4861-8745-d82ff01937a3 0.21s
+GET http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/sequence/252294d9-7cca-4f5f-8d8d-8df06bbf382f/f08e2d1c-6dfc-4f10-804e-8374be2440c2 0.21s
+GET http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/sequence/6f61a1ab-aa7b-4fe0-9c2b-589928bc2e20/9634f92e-f520-4375-9f54-58d142e36999 0.21s
+GET http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/sequence/8652c38e-60f6-4201-8687-25cb4d7adcb5/51616d88-943c-4ee3-8d8b-a99a5228a963 0.21s
+GET http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/sequence/0b5d418e-5d3c-4ea1-88d6-cb03672c6c18/390ddc7c-7bd1-410c-b4bb-efcbac76d4a1 0.21s
+GET http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/sequence/e3f8f9c7-59a7-4c24-b76f-1d19861f07f9/dcd6579e-ad53-4fbf-a8d1-8f14b4039406 0.20s
+GET http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/sequence/8652c38e-60f6-4201-8687-25cb4d7adcb5/f08e2d1c-6dfc-4f10-804e-8374be2440c2 0.20s
+GET http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/sequence/ffed0df7-f17c-46de-af2a-7b3941598765/a374fb6e-4674-4861-8745-d82ff01937a3 0.20s
+GET http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/sequence/e8dd0066-7ed8-49ad-abd3-e3e3dcaa4774/5606e91f-4b34-4824-ba46-e21437c3766d 0.20s
+GET http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/sequence/a8796f88-6b43-4fac-a5ff-fb784dfce575/390ddc7c-7bd1-410c-b4bb-efcbac76d4a1 0.20s
+GET http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/sequence/d2400237-3220-4760-a0ec-14fae9ea83ef/9634f92e-f520-4375-9f54-58d142e36999 0.20s
+GET http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/sequence/804a979d-334a-48f3-aba9-23a47939f3cb/51616d88-943c-4ee3-8d8b-a99a5228a963 0.20s
+GET http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/sequence/e562cd4b-63a1-4f48-81e6-eeba74748586/de512e34-80f3-479c-a173-d2559a3f1bd3 0.20s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.15s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.15s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.14s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.14s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.14s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.14s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.14s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.14s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.14s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.14s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.14s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.14s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.14s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.14s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.14s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.19s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.19s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.19s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.26s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.26s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.26s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.26s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.26s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.26s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.26s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.26s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.26s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.26s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.26s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.26s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.26s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.26s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.26s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.26s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.26s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.26s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.26s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.26s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.26s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.26s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.26s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.26s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.26s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.26s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.26s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.43s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.43s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.43s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.43s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.43s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.43s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.43s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.43s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.43s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.43s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.43s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.43s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.20s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.20s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.20s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.20s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.80s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.80s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.80s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.80s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.80s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.80s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.80s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.80s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.80s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.80s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.79s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.79s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.79s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.79s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.79s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.79s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.79s
+POST http://10.149.0.68:8000/work/e7f8b1a8-2068-46f2-b096-a8edd248bc5c/result 0.79s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.79s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.80s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.80s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.80s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.80s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.80s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.79s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.79s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.79s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.79s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.79s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.79s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.79s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.79s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.94s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.94s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 1.00s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 1.00s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 1.00s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 1.00s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 1.00s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 1.00s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 1.00s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 1.00s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 1.00s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 1.00s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 1.00s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 1.00s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.27s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.27s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.27s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.27s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.27s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.63s
+POST http://10.149.0.68:8000/work/3bfe771c-83a0-4564-be2d-c8d621135d39/result 0.63s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.63s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.63s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/77c48fb9-f5b1-4920-85e4-064c32c65a86/result 0.63s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.63s
+POST http://10.149.0.68:8000/work/b67fd509-5f29-40c0-a983-666a9eac44b5/result 0.63s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/3e6cef3a-6606-4b66-8b7f-881a1fb6999a/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/b5f5dfa5-48ff-4662-adfb-1cf141b36502/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/e6827f6d-2632-40d7-9588-e61069b91c76/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.63s
+computation time:  17676353892
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.58s
+POST http://10.149.0.68:8000/work/2e5e6a99-5855-4e76-855d-ada94026052f/result 0.58s
+POST http://10.149.0.68:8000/work/raw 0.58s
+GET http://10.149.0.68:8000/job/561e8058-babc-4aad-9c23-eee7bcd5bcee/result 0.70s
+POST http://10.149.0.68:8000/job/format/multipart 1.57s
+get_new_raw_work_package took 0.36 seconds to execute
+POST http://10.149.0.68:8000/work/raw 0.55s
+POST http://10.149.0.68:8000/work/raw 0.55s
+POST http://10.149.0.68:8000/work/raw 0.55s
+POST http://10.149.0.68:8000/work/raw 0.55s
+POST http://10.149.0.68:8000/work/raw 0.55s
+POST http://10.149.0.68:8000/work/raw 0.55s
+POST http://10.149.0.68:8000/work/raw 0.55s
+POST http://10.149.0.68:8000/work/raw 0.55s
+GET http://10.149.0.68:8000/work/66e9f4bd-52e6-41e4-a4d2-d5fafc344850/sequence/a5b97569-9c6b-4407-b150-142ec273b44a/51616d88-943c-4ee3-8d8b-a99a5228a963 0.26s
+GET http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/sequence/a92f1c0f-61bf-45b1-b79e-448caf4c7cee/5606e91f-4b34-4824-ba46-e21437c3766d 0.26s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.12s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.12s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.12s
+POST http://10.149.0.68:8000/work/d7a727e8-e674-4b23-ad59-73b45a648508/result 0.24s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.24s
+POST http://10.149.0.68:8000/work/52220c77-ffc4-493b-8dc7-5b67aba171f1/result 0.21s
+POST http://10.149.0.68:8000/work/d7a727e8-e674-4b23-ad59-73b45a648508/result 0.21s
+POST http://10.149.0.68:8000/work/52220c77-ffc4-493b-8dc7-5b67aba171f1/result 0.21s
+POST http://10.149.0.68:8000/work/d7a727e8-e674-4b23-ad59-73b45a648508/result 0.21s
+POST http://10.149.0.68:8000/work/52220c77-ffc4-493b-8dc7-5b67aba171f1/result 0.21s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.21s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.21s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.21s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.21s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.21s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.21s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.21s
+POST http://10.149.0.68:8000/work/52220c77-ffc4-493b-8dc7-5b67aba171f1/result 0.21s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.21s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.21s
+POST http://10.149.0.68:8000/work/d7a727e8-e674-4b23-ad59-73b45a648508/result 0.21s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.29s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.29s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.29s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.29s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.29s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.29s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.14s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.14s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.14s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.14s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.14s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.42s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.42s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.42s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.42s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.42s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.37s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.37s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.37s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.37s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.37s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.37s
+POST http://10.149.0.68:8000/work/52220c77-ffc4-493b-8dc7-5b67aba171f1/result 0.37s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.37s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.37s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.37s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.37s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.37s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.37s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.37s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.37s
+POST http://10.149.0.68:8000/work/d7a727e8-e674-4b23-ad59-73b45a648508/result 0.37s
+POST http://10.149.0.68:8000/work/52220c77-ffc4-493b-8dc7-5b67aba171f1/result 0.37s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.37s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.36s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.36s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.36s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.36s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.36s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.36s
+POST http://10.149.0.68:8000/work/d7a727e8-e674-4b23-ad59-73b45a648508/result 0.36s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.36s
+POST http://10.149.0.68:8000/work/d7a727e8-e674-4b23-ad59-73b45a648508/result 0.36s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.36s
+POST http://10.149.0.68:8000/work/b0d63cd9-327f-4acc-8d36-5f53613fa113/result 0.36s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.36s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.36s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.36s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.55s
+POST http://10.149.0.68:8000/work/15e24cba-e0a7-48e8-bbef-f9dfdfdec9e1/result 0.55s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.55s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.55s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.55s
+POST http://10.149.0.68:8000/work/7baa3628-952d-4f8a-a018-3751690248dc/result 0.55s
+POST http://10.149.0.68:8000/work/876b7be4-f0ba-4d21-a97f-3462ac715382/result 0.55s
+POST http://10.149.0.68:8000/work/d7a727e8-e674-4b23-ad59-73b45a648508/result 0.55s
+POST http://10.149.0.68:8000/work/9c02b4f7-3128-49a5-99d7-998689845a04/result 0.55s
+[INFO] [24-01-02 10:37:44] [master.job_queue.job_queue] Adding job to queue. Job has 16000 queries
+[INFO] [24-01-02 10:37:44] [master.work_package.work_package_collector] Created work package for worker with 1951 queries
+[INFO] [24-01-02 10:37:44] [master.work_package.work_package_collector] Created work package for worker with 2000 queries
+[INFO] [24-01-02 10:37:45] [master.work_package.work_package_collector] Created work package for worker with 1978 queries
+[INFO] [24-01-02 10:37:45] [master.work_package.work_package_collector] Created work package for worker with 1963 queries
+[INFO] [24-01-02 10:37:45] [master.work_package.work_package_collector] Created work package for worker with 2058 queries
+[INFO] [24-01-02 10:37:45] [master.work_package.work_package_collector] Created work package for worker with 1993 queries
+[INFO] [24-01-02 10:37:45] [master.work_package.work_package_collector] Created work package for worker with 2060 queries
+[INFO] [24-01-02 10:37:45] [master.work_package.work_package_collector] Created work package for worker with 1997 queries
+[INFO] [24-01-02 10:38:04] [master.work_package.work_package_collector] Work package 64dc5c59-19c2-45cb-a547-18efc41c6176 is done
+[INFO] [24-01-02 10:38:04] [master.work_package.work_package_collector] Work package d870db04-a06d-46b4-bbf4-0604e810dce7 is done
+[INFO] [24-01-02 10:38:04] [master.work_package.work_package_collector] Work package 65228c3f-245c-4bd5-ad83-277f278bbbd3 is done
+[INFO] [24-01-02 10:38:04] [master.work_package.work_package_collector] Work package e2e24fbb-0fea-451c-94f4-c1df43791318 is done
+[INFO] [24-01-02 10:38:04] [master.work_package.work_package_collector] Work package d2aa3fa3-8833-4657-a939-3cafd5b591e6 is done
+[INFO] [24-01-02 10:38:05] [master.work_package.work_package_collector] Work package be72ad1e-44ec-4f71-9b35-c2d909d9e43a is done
+[INFO] [24-01-02 10:38:05] [master.work_package.work_package_collector] Work package 3589ee22-d2be-49b1-a755-548fa29a621f is done
+[INFO] [24-01-02 10:38:05] [master.work_package.work_package_collector] Work package c1a7675f-2115-4bf6-b12b-21d32be646b9 is done
+[INFO] [24-01-02 10:38:05] [master.work_package.work_package_collector] Work package c1a7675f-2115-4bf6-b12b-21d32be646b9 is done
+slurmstepd: error: *** JOB 4754839 ON node068 CANCELLED AT 2024-01-02T10:38:06 ***
