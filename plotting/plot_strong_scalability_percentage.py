@@ -61,7 +61,7 @@ plt.figure(figsize=(4, 3), dpi=600)
 (s, n, n_means, n_means_normalized) = parse_results('./DAS5/strong_scalability_f748803_XL/result_2023-12-26_12-49-59.json')
 plt.plot(s, n_means_normalized, color=colors[1], label=f"Mean, XL", marker='o', linestyle='-')
 
-(s, n, n_means, n_means_normalized) = parse_results('./DAS5/strong_scalability_f748803_synthetic/result_2023-12-27_14-34-28.json')
+(s, n, n_means, n_means_normalized) = parse_results('./DAS5/strong_scalability_4a8ac27_synthetic/result_2023-12-27_14-34-28.json')
 plt.plot(s, n_means_normalized, color=colors[2], label=f"Mean, synthetic", marker='o', linestyle='-')
 
 plt.legend()
