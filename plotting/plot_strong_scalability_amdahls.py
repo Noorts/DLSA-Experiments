@@ -11,7 +11,7 @@ def amdahl(s, p):
 ### PARSE RESULT FILE ###
 
 # Path to your JSON file
-json_file_path = './DAS5/strong_scalability_4a8ac27_synthetic_8000/result_2023-12-27_14-34-28.json'
+json_file_path = './DAS5/strong_scalability_988e281_synthetic_32000/result_2024-01-02_12-06-09_combined.json'
 
 # Load JSON data
 with open(json_file_path, 'r') as file:
@@ -78,7 +78,7 @@ plt.plot(n1, amdahl(n1, *popt), color=colors[1], ls="--", label=f"Amdahl's Law (
 plt.plot([s[0], s[-1]], [s[0], s[-1]], color=colors[0], label="Linear Speedup")
 plt.legend()
 
-plt.title("Strong Scalability")
+plt.title("Strong Scalability (32.000 alignments)")
 plt.xlabel("Number of Nodes")
 plt.ylabel("Speed up")
 plt.xticks([2 ** i for i in range(5)])

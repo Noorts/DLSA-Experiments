@@ -65,7 +65,7 @@ weak_scalability_result_paths = [
 
 for index, path in enumerate(weak_scalability_result_paths):
     (s, n, n_statistic, n_statistic_normalized) = parse_results(path)
-    plt.plot(s, n_statistic_normalized, color=colors[index + 1], label=f"t-len: 100-{200000 // 2**(index)}", marker='o', linestyle='-')
+    plt.plot(s, n_statistic_normalized, color=colors[index + 1], label=f"Target Length: 100 to {200000 // 2**(index)}", marker='o', linestyle='-')
 
 plt.legend()
 plt.title("Weak Scalability")

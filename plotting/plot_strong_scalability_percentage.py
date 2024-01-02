@@ -58,13 +58,13 @@ colors = ['#0077B3', '#4FAF48', '#E8692D', '#8E4DA4', '#F2BA2F', '#D4CAC8', '#57
 plt.figure(figsize=(4, 3), dpi=600)
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_988e281_synthetic_32000/result_2024-01-02_12-06-09_combined.json')
-plt.plot(s, n_statistic_normalized, color=colors[0], label=f"Synthetic 32.000x", marker='o', linestyle='-')
+plt.plot(s, n_statistic_normalized, color=colors[1], label=f"Synthetic 32.000", marker='o', linestyle='-')
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_988e281_synthetic_16000/result_2024-01-02_10-10-23.json')
-plt.plot(s, n_statistic_normalized, color=colors[1], label=f"Synthetic 16.000x", marker='o', linestyle='-')
+plt.plot(s, n_statistic_normalized, color=colors[0], label=f"Synthetic 16.000", marker='o', linestyle='-')
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_4a8ac27_synthetic_8000/result_2023-12-27_14-34-28.json')
-plt.plot(s, n_statistic_normalized, color=colors[2], label=f"Synthetic 8.000x", marker='o', linestyle='-')
+plt.plot(s, n_statistic_normalized, color=colors[2], label=f"Synthetic 8.000", marker='o', linestyle='-')
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_f748803_XL/result_2023-12-26_12-49-59.json')
 plt.plot(s, n_statistic_normalized, color=colors[3], label=f"Extra Large", marker='o', linestyle='-')
