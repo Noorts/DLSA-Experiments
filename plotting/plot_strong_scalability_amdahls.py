@@ -50,6 +50,8 @@ for i in range(len(n_means) - 1):
 n_means_normalized[0] = 1 # [0] so 1 processor (the "sequential") is used as a speed up of 1 baseline.
 
 n_normalized = n_means[0] / n # All the individual measurements (not the means) are converted to a speed up here.
+# Standard deviation of the speed up measurements.
+n_std = [np.std(arr) for arr in n_normalized]
 
 
 ### CREATE PLOT ###
@@ -69,7 +71,7 @@ plt.figure(figsize=(4, 3), dpi=600)
 popt, pcov = scipy.optimize.curve_fit(amdahl, s, n_means_normalized)
 print("popt", popt, "pcov", pcov)
 
-plt.scatter(s, n_means_normalized, color=colors[1], label="Mean")
+plt.errorbar(s, n_means_normalized, yerr=n_std, color=colors[1], fmt="o", label="Median (with std.dev.)", capsize=3) # Or fmt="_" for a standard error bar.
 n1 = np.linspace(s[0], s[-1], 100000)
 plt.plot(n1, amdahl(n1, *popt), color=colors[1], ls="--", label=f"Amdahl's Law (p={round(popt[0], 2)})")
 
@@ -79,7 +81,7 @@ plt.legend()
 plt.title("Strong Scalability")
 plt.xlabel("Number of Nodes")
 plt.ylabel("Speed up")
-plt.xticks([1,2,4,6,8,10,12,14,16])
+plt.xticks([2 ** i for i in range(5)])
 plt.ylim(0, 4)
 
 plt.tight_layout()
