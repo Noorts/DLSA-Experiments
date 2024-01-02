@@ -1,0 +1,46 @@
+Note: this partial experiment (it was cancelled manually) displays two failures.
+
+The first failure is because the master ran out of time, this is because during daytime a job's length is only allowed to be 15 minutes (see: https://www.cs.vu.nl/das5/usage.shtml). This can be easily fixed by increasing the number of clean iterations and lowering the number of query iterations, or these experiments can be run at night during which the limit can be set higher.
+
+The second failure is more serious, this shows the master (in its current state using its current configuration) not being able to manage the 64.000 sequence alignments. Check the `slurm-4755051.out` log of the master and the `slurm-4755052.out` log of one of the workers for more information.
+
+Commit ID: 988e281
+
+
+### Experiment Setup ###
+
+default_experiment = {
+    "query_iterations": 1,
+    "n_workers": 1,
+    "query_path": "datasets/query_sequences.fasta",
+    "target_path": "datasets/target_sequences.fasta",
+    "configuration": {
+        "match_score": 2,
+        "mismatch_penalty": 1,
+        "gap_penalty": 1
+    },
+    "top_k": 5
+}
+
+clean_iterations = 2
+query_iterations = 5
+
+# Configure the experiments to be run here (append them to the "experiment_configs" list).
+for _ in range(clean_iterations):
+    for n_workers in [1, 2, 4, 8, 16]:
+        exp = default_experiment.copy()
+        exp["query_iterations"] = query_iterations
+        exp["n_workers"] = n_workers
+        experiment_configs.append(exp)
+
+
+### Query generation ###
+
+no_queries=10,
+query_min_size=200,
+query_max_size=1000,
+no_targets=6400,
+target_min_size=10000,
+target_max_size=200000,
+query_name=f"datasets/query_sequences.fasta",
+database_name=f"datasets/target_sequences.fasta",

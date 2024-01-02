@@ -1,0 +1,16 @@
+10.149.0.59
+2024/01/02 14:19:55 Master node address: http://10.149.0.68:8000
+2024/01/02 14:19:55 Benchmarking worker...
+2024/01/02 14:19:56 Worker registered (1785 MCUPS). Waiting for work...
+2024/01/02 14:20:27 Got work. Start calculating alignments...
+2024/01/02 14:20:27 Calculating 31966 queries
+2024/01/02 14:21:38 Error sending result Post "http://10.149.0.68:8000/work/71a8823e-9a24-40e9-9149-e04bb3bc56b2/result": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/01/02 14:21:38 Error sending result Post "http://10.149.0.68:8000/work/71a8823e-9a24-40e9-9149-e04bb3bc56b2/result": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/01/02 14:21:39 Error sending result Post "http://10.149.0.68:8000/work/71a8823e-9a24-40e9-9149-e04bb3bc56b2/result": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/01/02 14:21:39 Error sending result Post "http://10.149.0.68:8000/work/71a8823e-9a24-40e9-9149-e04bb3bc56b2/result": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/01/02 14:21:40 Error sending result Post "http://10.149.0.68:8000/work/71a8823e-9a24-40e9-9149-e04bb3bc56b2/result": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/01/02 14:21:40 Error sending result Post "http://10.149.0.68:8000/work/71a8823e-9a24-40e9-9149-e04bb3bc56b2/result": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/01/02 14:21:40 Error sending result Post "http://10.149.0.68:8000/work/71a8823e-9a24-40e9-9149-e04bb3bc56b2/result": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/01/02 14:21:40 Error sending heartbeat: Post "http://10.149.0.68:8000/worker/pulse": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024/01/02 14:21:40 Shutting down...
+exit status 1
