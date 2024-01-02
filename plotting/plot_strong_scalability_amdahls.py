@@ -42,14 +42,14 @@ s_raw = {n_workers: np.array(times) for n_workers, times in computation_times.it
 s = list(s_raw.keys())
 n = [s_raw[key] for key in s]
 
-n_means = np.mean(n, axis=1)
+n_statistic = np.median(n, axis=1)
 
-n_means_normalized = copy.deepcopy(n_means) # Normalized = speed up.
-for i in range(len(n_means) - 1):
-    n_means_normalized[i + 1] = n_means_normalized[0] / n_means_normalized[i + 1]
-n_means_normalized[0] = 1 # [0] so 1 processor (the "sequential") is used as a speed up of 1 baseline.
+n_statistic_normalized = copy.deepcopy(n_statistic) # Normalized = speed up.
+for i in range(len(n_statistic) - 1):
+    n_statistic_normalized[i + 1] = n_statistic_normalized[0] / n_statistic_normalized[i + 1]
+n_statistic_normalized[0] = 1 # [0] so 1 processor (the "sequential") is used as a speed up of 1 baseline.
 
-n_normalized = n_means[0] / n # All the individual measurements (not the means) are converted to a speed up here.
+n_normalized = n_statistic[0] / n # All the individual measurements (not the statistic) are converted to a speed up here.
 # Standard deviation of the speed up measurements.
 n_std = [np.std(arr) for arr in n_normalized]
 
@@ -68,10 +68,10 @@ plt.figure(figsize=(4, 3), dpi=600)
 #     else:
 #         plt.scatter(s, iteration, color=colors[2])
 
-popt, pcov = scipy.optimize.curve_fit(amdahl, s, n_means_normalized)
+popt, pcov = scipy.optimize.curve_fit(amdahl, s, n_statistic_normalized)
 print("popt", popt, "pcov", pcov)
 
-plt.errorbar(s, n_means_normalized, yerr=n_std, color=colors[1], fmt="o", label="Median (with std.dev.)", capsize=3) # Or fmt="_" for a standard error bar.
+plt.errorbar(s, n_statistic_normalized, yerr=n_std, color=colors[1], fmt="o", label="Median (with std.dev.)", capsize=3) # Or fmt="_" for a standard error bar.
 n1 = np.linspace(s[0], s[-1], 100000)
 plt.plot(n1, amdahl(n1, *popt), color=colors[1], ls="--", label=f"Amdahl's Law (p={round(popt[0], 2)})")
 

@@ -39,15 +39,15 @@ def parse_results(json_file_path):
     s = list(s_raw.keys())
     n = [s_raw[key] for key in s]
 
-    n_means = np.mean(n, axis=1)
+    n_statistic = np.median(n, axis=1)
 
-    n_means_normalized = copy.deepcopy(n_means) # Normalized = parallel efficiency as a percentage.
-    for i in range(len(n_means) - 1):
-        print(n_means_normalized[0], n_means_normalized[i + 1], s[i + 1])
-        n_means_normalized[i + 1] = n_means_normalized[0] / n_means_normalized[i + 1] * 100
-    n_means_normalized[0] = 100 # [0] so 1 processor (the "sequential") is as a baseline of 100%.
+    n_statistic_normalized = copy.deepcopy(n_statistic) # Normalized = parallel efficiency as a percentage.
+    for i in range(len(n_statistic) - 1):
+        print(n_statistic_normalized[0], n_statistic_normalized[i + 1], s[i + 1])
+        n_statistic_normalized[i + 1] = n_statistic_normalized[0] / n_statistic_normalized[i + 1] * 100
+    n_statistic_normalized[0] = 100 # [0] so 1 processor (the "sequential") is as a baseline of 100%.
 
-    return (s, n, n_means, n_means_normalized)
+    return (s, n, n_statistic, n_statistic_normalized)
 
 
 ### CREATE PLOT ###
@@ -64,8 +64,8 @@ weak_scalability_result_paths = [
 ]
 
 for index, path in enumerate(weak_scalability_result_paths):
-    (s, n, n_means, n_means_normalized) = parse_results(path)
-    plt.plot(s, n_means_normalized, color=colors[index + 1], label=f"Mean, t-len: 100-{200000 // 2**(index)}", marker='o', linestyle='-')
+    (s, n, n_statistic, n_statistic_normalized) = parse_results(path)
+    plt.plot(s, n_statistic_normalized, color=colors[index + 1], label=f"t-len: 100-{200000 // 2**(index)}", marker='o', linestyle='-')
 
 plt.legend()
 plt.title("Weak Scalability")
