@@ -72,9 +72,6 @@ plt.plot(s, n_statistic_normalized, color=colors[3], label=f"Extra Large", marke
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_988e281_large/result_2024-01-02_09-41-58.json')
 plt.plot(s, n_statistic_normalized, color=colors[4], label=f"Large", marker='o', linestyle='-')
 
-(s, n, n_means, n_means_normalized) = parse_results('./DAS5/strong_scalability_988e281_large/result_2024-01-02_09-41-58.json')
-plt.plot(s, n_means_normalized, color=colors[4], label=f"Large", marker='o', linestyle='-')
-
 plt.legend()
 plt.title("Strong Scalability")
 plt.xlabel("Number of Nodes")
