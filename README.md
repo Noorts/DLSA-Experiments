@@ -16,6 +16,10 @@ In the DAS5 directory, subdirectories can be found that contain:
 
 Note: the `elapsed_time` and `computation_time` measurements are stored in the result files in **milliseconds**.
 
+### Competition
+
+The Competition directory contains results produced for the class competition. This directory in addition to the contents mentioned in the DAS5 section above, also has a subdirectory with the sequence alignment results. Note that for these results the top-k parameter was set to 5, and due to the CLI's result processing multiple runs have appended to the same file (thus there are more than 5 results in the file).
+
 ### Plotting
 
 Contains the code used to create the plots contained in the report.

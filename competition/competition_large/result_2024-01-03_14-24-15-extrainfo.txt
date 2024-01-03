@@ -1,0 +1,29 @@
+Commit ID: 6813f72
+
+### Experiment Setup
+
+default_experiment = {
+    "query_iterations": 1,
+    "n_workers": 1,
+    "query_path": "datasets/query.fna",
+    "target_path": "datasets/large.fna",
+    "configuration": {
+        "match_score": 2,
+        "mismatch_penalty": 1,
+        "gap_penalty": 1
+    },
+    "top_k": 5
+}
+
+experiment_configs = []
+
+clean_iterations = 2
+query_iterations = 5
+
+# Configure the experiments to be run here (append them to the "experiment_configs" list).
+for _ in range(clean_iterations):
+    for n_workers in [1, 2, 4, 8]:
+        exp = default_experiment.copy()
+        exp["query_iterations"] = query_iterations
+        exp["n_workers"] = n_workers
+        experiment_configs.append(exp)

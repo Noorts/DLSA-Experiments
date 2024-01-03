@@ -1,0 +1,43 @@
+10.149.0.56
+[INFO] [24-01-03 14:52:53] [master.settings] Settings: {'work_package_cleaning_interval': 5, 'worker_cleaning_interval': 5, 'worker_timeout': 10, 'scheduler_type': 'proportional', 'work_package_time_split_in_seconds': 180, 'enable_job_deletion': True, 'verify_work': False}
+[INFO] [24-01-03 14:52:53] [uvicorn.error] Started server process [23636]
+[INFO] [24-01-03 14:52:53] [uvicorn.error] Waiting for application startup.
+[INFO] [24-01-03 14:52:53] [uvicorn.error] Application startup complete.
+[INFO] [24-01-03 14:52:53] [uvicorn.error] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[INFO] [24-01-03 14:52:55] [master.worker.worker_collector] Registering worker with resources 1863 MCUPS
+[INFO] [24-01-03 14:52:55] [master.worker.worker_collector] Number of registered workers: 1
+[INFO] [24-01-03 14:52:55] [master.worker.worker_collector] Registering worker with resources 1841 MCUPS
+[INFO] [24-01-03 14:52:55] [master.worker.worker_collector] Number of registered workers: 2
+[INFO] [24-01-03 14:52:55] [master.worker.worker_collector] Registering worker with resources 1854 MCUPS
+[INFO] [24-01-03 14:52:55] [master.worker.worker_collector] Number of registered workers: 3
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Registering worker with resources 1843 MCUPS
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Number of registered workers: 4
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Registering worker with resources 1785 MCUPS
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Number of registered workers: 5
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Registering worker with resources 1796 MCUPS
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Number of registered workers: 6
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Registering worker with resources 1790 MCUPS
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Number of registered workers: 7
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Registering worker with resources 1809 MCUPS
+[INFO] [24-01-03 14:52:56] [master.worker.worker_collector] Number of registered workers: 8
+[INFO] [24-01-03 14:52:58] [master.job_queue.job_queue] Adding job to queue. Job has 1 queries
+[INFO] [24-01-03 14:52:58] [master.work_package.work_package_collector] Created work package for worker with 1 queries
+[INFO] [24-01-03 14:52:58] [master.work_package.work_package_collector] Work package c721467d-b865-437c-9ae9-dc48e1497bd1 is done
+[INFO] [24-01-03 14:52:58] [master.work_package.work_package_collector] Work package c721467d-b865-437c-9ae9-dc48e1497bd1 is done
+[INFO] [24-01-03 14:52:59] [master.job_queue.job_queue] Adding job to queue. Job has 1 queries
+[INFO] [24-01-03 14:52:59] [master.work_package.work_package_collector] Created work package for worker with 1 queries
+[INFO] [24-01-03 14:52:59] [master.work_package.work_package_collector] Work package 0c200347-190e-44a4-86ae-a0dab463006b is done
+[INFO] [24-01-03 14:52:59] [master.work_package.work_package_collector] Work package 0c200347-190e-44a4-86ae-a0dab463006b is done
+[INFO] [24-01-03 14:53:00] [master.job_queue.job_queue] Adding job to queue. Job has 1 queries
+[INFO] [24-01-03 14:53:00] [master.work_package.work_package_collector] Created work package for worker with 1 queries
+[INFO] [24-01-03 14:53:00] [master.work_package.work_package_collector] Work package 8da8d317-be9a-41ac-b409-48ba8a849573 is done
+[INFO] [24-01-03 14:53:00] [master.work_package.work_package_collector] Work package 8da8d317-be9a-41ac-b409-48ba8a849573 is done
+[INFO] [24-01-03 14:53:01] [master.job_queue.job_queue] Adding job to queue. Job has 1 queries
+[INFO] [24-01-03 14:53:01] [master.work_package.work_package_collector] Created work package for worker with 1 queries
+[INFO] [24-01-03 14:53:01] [master.work_package.work_package_collector] Work package 51648fcf-4da0-4f64-97af-374caac60594 is done
+[INFO] [24-01-03 14:53:01] [master.work_package.work_package_collector] Work package 51648fcf-4da0-4f64-97af-374caac60594 is done
+[INFO] [24-01-03 14:53:02] [master.job_queue.job_queue] Adding job to queue. Job has 1 queries
+[INFO] [24-01-03 14:53:02] [master.work_package.work_package_collector] Created work package for worker with 1 queries
+[INFO] [24-01-03 14:53:02] [master.work_package.work_package_collector] Work package 0bf45338-ae2e-4542-bb70-43c2aa4523bc is done
+[INFO] [24-01-03 14:53:02] [master.work_package.work_package_collector] Work package 0bf45338-ae2e-4542-bb70-43c2aa4523bc is done
+slurmstepd: error: *** JOB 4755697 ON node056 CANCELLED AT 2024-01-03T14:53:02 ***

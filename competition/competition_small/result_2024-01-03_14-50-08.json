@@ -1,0 +1,552 @@
+{
+    "2024-01-03_14-50-08_1": {
+        "experiment_config": {
+            "query_iterations": 5,
+            "n_workers": 1,
+            "query_path": "datasets/query.fna",
+            "target_path": "datasets/small.fna",
+            "configuration": {
+                "match_score": 2,
+                "mismatch_penalty": 1,
+                "gap_penalty": 1
+            },
+            "top_k": 5
+        },
+        "time_start_epoch": 1704289808,
+        "time_start_readable": "2024-01-03_14-50-08",
+        "status": "SUCCESS",
+        "master_job_id": "4755633",
+        "master_ip": "10.149.0.68",
+        "worker_job_ids": [
+            "4755634"
+        ],
+        "result": [
+            {
+                "time": "2024-01-03_14-50-20",
+                "query_res": {
+                    "elapsed_time": 310,
+                    "computation_time": 162,
+                    "full_output": "Job Successfully submitted, job ID: 905323d8-8dd6-4c28-a3c6-d2332c79c366\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 310 milliseconds\nComputation time: 162 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-08_1/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-50-21",
+                "query_res": {
+                    "elapsed_time": 275,
+                    "computation_time": 242,
+                    "full_output": "Job Successfully submitted, job ID: b4ad6889-3285-46b7-b5a5-bb360a347a15\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 275 milliseconds\nComputation time: 242 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-08_1/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-50-22",
+                "query_res": {
+                    "elapsed_time": 270,
+                    "computation_time": 98,
+                    "full_output": "Job Successfully submitted, job ID: e7c0ceaa-cde0-489f-b826-5c2d4b64fa6b\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 270 milliseconds\nComputation time: 98 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-08_1/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-50-23",
+                "query_res": {
+                    "elapsed_time": 272,
+                    "computation_time": 194,
+                    "full_output": "Job Successfully submitted, job ID: 2f90f259-7967-4740-9fff-03c35e8aa6a8\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 272 milliseconds\nComputation time: 194 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-08_1/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-50-24",
+                "query_res": {
+                    "elapsed_time": 293,
+                    "computation_time": 279,
+                    "full_output": "Job Successfully submitted, job ID: 87e30bd3-9571-446b-a14a-f41c15dee43a\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 293 milliseconds\nComputation time: 279 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-08_1/\n"
+                }
+            }
+        ],
+        "time_end_readable": "2024-01-03_14-50-24",
+        "time_end_epoch": 1704289824
+    },
+    "2024-01-03_14-50-24_2": {
+        "experiment_config": {
+            "query_iterations": 5,
+            "n_workers": 2,
+            "query_path": "datasets/query.fna",
+            "target_path": "datasets/small.fna",
+            "configuration": {
+                "match_score": 2,
+                "mismatch_penalty": 1,
+                "gap_penalty": 1
+            },
+            "top_k": 5
+        },
+        "time_start_epoch": 1704289824,
+        "time_start_readable": "2024-01-03_14-50-24",
+        "status": "SUCCESS",
+        "master_job_id": "4755640",
+        "master_ip": "10.149.0.60",
+        "worker_job_ids": [
+            "4755641",
+            "4755642"
+        ],
+        "result": [
+            {
+                "time": "2024-01-03_14-50-56",
+                "query_res": {
+                    "elapsed_time": 277,
+                    "computation_time": 75,
+                    "full_output": "Job Successfully submitted, job ID: cab6dec9-83c0-40c1-a898-bee7bc603773\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 277 milliseconds\nComputation time: 75 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-24_2/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-50-57",
+                "query_res": {
+                    "elapsed_time": 275,
+                    "computation_time": 139,
+                    "full_output": "Job Successfully submitted, job ID: 397ef7d9-64e6-4195-adc4-6f673ec0348c\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 275 milliseconds\nComputation time: 139 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-24_2/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-50-58",
+                "query_res": {
+                    "elapsed_time": 274,
+                    "computation_time": 189,
+                    "full_output": "Job Successfully submitted, job ID: e12ec532-e88d-4713-85b7-4091a241ea49\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 274 milliseconds\nComputation time: 189 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-24_2/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-50-59",
+                "query_res": {
+                    "elapsed_time": 275,
+                    "computation_time": 59,
+                    "full_output": "Job Successfully submitted, job ID: be5e4f61-4837-4c50-8f6c-d84713ded12c\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 275 milliseconds\nComputation time: 59 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-24_2/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-00",
+                "query_res": {
+                    "elapsed_time": 271,
+                    "computation_time": 81,
+                    "full_output": "Job Successfully submitted, job ID: ecf2562c-d212-4a7b-983e-f671228707d2\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 271 milliseconds\nComputation time: 81 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-50-24_2/\n"
+                }
+            }
+        ],
+        "time_end_readable": "2024-01-03_14-51-00",
+        "time_end_epoch": 1704289860
+    },
+    "2024-01-03_14-51-00_4": {
+        "experiment_config": {
+            "query_iterations": 5,
+            "n_workers": 4,
+            "query_path": "datasets/query.fna",
+            "target_path": "datasets/small.fna",
+            "configuration": {
+                "match_score": 2,
+                "mismatch_penalty": 1,
+                "gap_penalty": 1
+            },
+            "top_k": 5
+        },
+        "time_start_epoch": 1704289860,
+        "time_start_readable": "2024-01-03_14-51-00",
+        "status": "SUCCESS",
+        "master_job_id": "4755648",
+        "master_ip": "10.149.0.68",
+        "worker_job_ids": [
+            "4755649",
+            "4755650",
+            "4755651",
+            "4755652"
+        ],
+        "result": [
+            {
+                "time": "2024-01-03_14-51-08",
+                "query_res": {
+                    "elapsed_time": 272,
+                    "computation_time": 66,
+                    "full_output": "Job Successfully submitted, job ID: 3950898e-f580-4419-9ed6-994bf26af245\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 272 milliseconds\nComputation time: 66 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-00_4/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-09",
+                "query_res": {
+                    "elapsed_time": 275,
+                    "computation_time": 112,
+                    "full_output": "Job Successfully submitted, job ID: 438b2c54-f818-4956-8a77-aaabc0d840fd\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 275 milliseconds\nComputation time: 112 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-00_4/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-10",
+                "query_res": {
+                    "elapsed_time": 270,
+                    "computation_time": 61,
+                    "full_output": "Job Successfully submitted, job ID: fe67b558-48ad-4355-8c7c-e3ec3f31d3f1\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 270 milliseconds\nComputation time: 61 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-00_4/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-11",
+                "query_res": {
+                    "elapsed_time": 271,
+                    "computation_time": 149,
+                    "full_output": "Job Successfully submitted, job ID: 30318243-5347-4f8b-a269-f071eae3b404\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 271 milliseconds\nComputation time: 149 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-00_4/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-12",
+                "query_res": {
+                    "elapsed_time": 270,
+                    "computation_time": 82,
+                    "full_output": "Job Successfully submitted, job ID: be11e7dc-6122-4693-a0a6-eb6a12c0848e\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 270 milliseconds\nComputation time: 82 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-00_4/\n"
+                }
+            }
+        ],
+        "time_end_readable": "2024-01-03_14-51-12",
+        "time_end_epoch": 1704289872
+    },
+    "2024-01-03_14-51-12_8": {
+        "experiment_config": {
+            "query_iterations": 5,
+            "n_workers": 8,
+            "query_path": "datasets/query.fna",
+            "target_path": "datasets/small.fna",
+            "configuration": {
+                "match_score": 2,
+                "mismatch_penalty": 1,
+                "gap_penalty": 1
+            },
+            "top_k": 5
+        },
+        "time_start_epoch": 1704289872,
+        "time_start_readable": "2024-01-03_14-51-12",
+        "status": "SUCCESS",
+        "master_job_id": "4755658",
+        "master_ip": "10.149.0.60",
+        "worker_job_ids": [
+            "4755659",
+            "4755660",
+            "4755661",
+            "4755662",
+            "4755663",
+            "4755664",
+            "4755665",
+            "4755666"
+        ],
+        "result": [
+            {
+                "time": "2024-01-03_14-51-47",
+                "query_res": {
+                    "elapsed_time": 274,
+                    "computation_time": 98,
+                    "full_output": "Job Successfully submitted, job ID: b96a6c8b-1903-469e-b3db-bf75180ff4f2\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 274 milliseconds\nComputation time: 98 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-12_8/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-48",
+                "query_res": {
+                    "elapsed_time": 272,
+                    "computation_time": 133,
+                    "full_output": "Job Successfully submitted, job ID: 16d74f60-63d0-45ed-bf3e-9e455327fd40\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 272 milliseconds\nComputation time: 133 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-12_8/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-49",
+                "query_res": {
+                    "elapsed_time": 276,
+                    "computation_time": 143,
+                    "full_output": "Job Successfully submitted, job ID: 0833f83e-1da8-4ce1-811c-99c1cbb1393e\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 276 milliseconds\nComputation time: 143 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-12_8/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-50",
+                "query_res": {
+                    "elapsed_time": 271,
+                    "computation_time": 82,
+                    "full_output": "Job Successfully submitted, job ID: 8dc1ad70-1efc-4145-a4db-28520fe97824\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 271 milliseconds\nComputation time: 82 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-12_8/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-51",
+                "query_res": {
+                    "elapsed_time": 271,
+                    "computation_time": 85,
+                    "full_output": "Job Successfully submitted, job ID: 65f0b906-325d-4696-9b4f-dba58ca433d8\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 271 milliseconds\nComputation time: 85 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-12_8/\n"
+                }
+            }
+        ],
+        "time_end_readable": "2024-01-03_14-51-51",
+        "time_end_epoch": 1704289911
+    },
+    "2024-01-03_14-51-51_1": {
+        "experiment_config": {
+            "query_iterations": 5,
+            "n_workers": 1,
+            "query_path": "datasets/query.fna",
+            "target_path": "datasets/small.fna",
+            "configuration": {
+                "match_score": 2,
+                "mismatch_penalty": 1,
+                "gap_penalty": 1
+            },
+            "top_k": 5
+        },
+        "time_start_epoch": 1704289911,
+        "time_start_readable": "2024-01-03_14-51-51",
+        "status": "SUCCESS",
+        "master_job_id": "4755672",
+        "master_ip": "10.149.0.65",
+        "worker_job_ids": [
+            "4755673"
+        ],
+        "result": [
+            {
+                "time": "2024-01-03_14-51-58",
+                "query_res": {
+                    "elapsed_time": 274,
+                    "computation_time": 253,
+                    "full_output": "Job Successfully submitted, job ID: d5f12183-a55e-47c0-a622-1ef1a2968df0\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 274 milliseconds\nComputation time: 253 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-51_1/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-51-59",
+                "query_res": {
+                    "elapsed_time": 282,
+                    "computation_time": 260,
+                    "full_output": "Job Successfully submitted, job ID: 79074da8-019f-41c4-b1d2-3048467f315c\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 282 milliseconds\nComputation time: 260 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-51_1/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-00",
+                "query_res": {
+                    "elapsed_time": 279,
+                    "computation_time": 60,
+                    "full_output": "Job Successfully submitted, job ID: 7c9f163c-5cb9-4bcd-b2a8-13a402050fbf\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 279 milliseconds\nComputation time: 60 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-51_1/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-01",
+                "query_res": {
+                    "elapsed_time": 272,
+                    "computation_time": 180,
+                    "full_output": "Job Successfully submitted, job ID: a7f2f60b-2367-4db2-b4f5-c957c9c5688e\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 272 milliseconds\nComputation time: 180 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-51_1/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-02",
+                "query_res": {
+                    "elapsed_time": 559,
+                    "computation_time": 299,
+                    "full_output": "Job Successfully submitted, job ID: 3bc7d5a3-a378-4745-8571-2c190d276874\nJob in queue, waiting for it to start\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 559 milliseconds\nComputation time: 299 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-51-51_1/\n"
+                }
+            }
+        ],
+        "time_end_readable": "2024-01-03_14-52-02",
+        "time_end_epoch": 1704289922
+    },
+    "2024-01-03_14-52-02_2": {
+        "experiment_config": {
+            "query_iterations": 5,
+            "n_workers": 2,
+            "query_path": "datasets/query.fna",
+            "target_path": "datasets/small.fna",
+            "configuration": {
+                "match_score": 2,
+                "mismatch_penalty": 1,
+                "gap_penalty": 1
+            },
+            "top_k": 5
+        },
+        "time_start_epoch": 1704289922,
+        "time_start_readable": "2024-01-03_14-52-02",
+        "status": "SUCCESS",
+        "master_job_id": "4755679",
+        "master_ip": "10.149.0.66",
+        "worker_job_ids": [
+            "4755680",
+            "4755681"
+        ],
+        "result": [
+            {
+                "time": "2024-01-03_14-52-09",
+                "query_res": {
+                    "elapsed_time": 274,
+                    "computation_time": 65,
+                    "full_output": "Job Successfully submitted, job ID: 116fc2d0-8985-45ac-b50d-2c8fa605baeb\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 274 milliseconds\nComputation time: 65 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-02_2/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-10",
+                "query_res": {
+                    "elapsed_time": 274,
+                    "computation_time": 137,
+                    "full_output": "Job Successfully submitted, job ID: 515b525d-3266-4985-9531-297a8e9ee9e9\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 274 milliseconds\nComputation time: 137 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-02_2/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-11",
+                "query_res": {
+                    "elapsed_time": 273,
+                    "computation_time": 58,
+                    "full_output": "Job Successfully submitted, job ID: aa4e3d86-bc26-4b4f-8c0f-7e583de5dcd9\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 273 milliseconds\nComputation time: 58 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-02_2/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-12",
+                "query_res": {
+                    "elapsed_time": 271,
+                    "computation_time": 157,
+                    "full_output": "Job Successfully submitted, job ID: cf9068ba-dbb5-4947-8828-105dd3e11049\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 271 milliseconds\nComputation time: 157 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-02_2/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-13",
+                "query_res": {
+                    "elapsed_time": 270,
+                    "computation_time": 87,
+                    "full_output": "Job Successfully submitted, job ID: 2e4ed04e-34af-4681-9aa9-c03843e57366\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 270 milliseconds\nComputation time: 87 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-02_2/\n"
+                }
+            }
+        ],
+        "time_end_readable": "2024-01-03_14-52-13",
+        "time_end_epoch": 1704289933
+    },
+    "2024-01-03_14-52-13_4": {
+        "experiment_config": {
+            "query_iterations": 5,
+            "n_workers": 4,
+            "query_path": "datasets/query.fna",
+            "target_path": "datasets/small.fna",
+            "configuration": {
+                "match_score": 2,
+                "mismatch_penalty": 1,
+                "gap_penalty": 1
+            },
+            "top_k": 5
+        },
+        "time_start_epoch": 1704289933,
+        "time_start_readable": "2024-01-03_14-52-13",
+        "status": "SUCCESS",
+        "master_job_id": "4755687",
+        "master_ip": "10.149.0.60",
+        "worker_job_ids": [
+            "4755688",
+            "4755689",
+            "4755690",
+            "4755691"
+        ],
+        "result": [
+            {
+                "time": "2024-01-03_14-52-47",
+                "query_res": {
+                    "elapsed_time": 274,
+                    "computation_time": 67,
+                    "full_output": "Job Successfully submitted, job ID: 56323c80-d67b-48ee-bcc8-81f374ab0428\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 274 milliseconds\nComputation time: 67 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-13_4/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-48",
+                "query_res": {
+                    "elapsed_time": 272,
+                    "computation_time": 118,
+                    "full_output": "Job Successfully submitted, job ID: 65b729c8-06d1-4635-8759-2a5d96479197\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 272 milliseconds\nComputation time: 118 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-13_4/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-49",
+                "query_res": {
+                    "elapsed_time": 271,
+                    "computation_time": 183,
+                    "full_output": "Job Successfully submitted, job ID: 704afbcc-1131-401c-9d52-d9a983e770b6\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 271 milliseconds\nComputation time: 183 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-13_4/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-50",
+                "query_res": {
+                    "elapsed_time": 555,
+                    "computation_time": 289,
+                    "full_output": "Job Successfully submitted, job ID: 814d304b-c20c-4e80-b7ea-ebd69a57f65d\nJob in queue, waiting for it to start\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 555 milliseconds\nComputation time: 289 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-13_4/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-51",
+                "query_res": {
+                    "elapsed_time": 272,
+                    "computation_time": 110,
+                    "full_output": "Job Successfully submitted, job ID: 1fa7b5e4-4cb6-4957-ba6b-b3cb88b53aaf\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 272 milliseconds\nComputation time: 110 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-13_4/\n"
+                }
+            }
+        ],
+        "time_end_readable": "2024-01-03_14-52-51",
+        "time_end_epoch": 1704289971
+    },
+    "2024-01-03_14-52-51_8": {
+        "experiment_config": {
+            "query_iterations": 5,
+            "n_workers": 8,
+            "query_path": "datasets/query.fna",
+            "target_path": "datasets/small.fna",
+            "configuration": {
+                "match_score": 2,
+                "mismatch_penalty": 1,
+                "gap_penalty": 1
+            },
+            "top_k": 5
+        },
+        "time_start_epoch": 1704289971,
+        "time_start_readable": "2024-01-03_14-52-51",
+        "status": "SUCCESS",
+        "master_job_id": "4755697",
+        "master_ip": "10.149.0.56",
+        "worker_job_ids": [
+            "4755698",
+            "4755699",
+            "4755700",
+            "4755701",
+            "4755702",
+            "4755703",
+            "4755704",
+            "4755705"
+        ],
+        "result": [
+            {
+                "time": "2024-01-03_14-52-58",
+                "query_res": {
+                    "elapsed_time": 276,
+                    "computation_time": 86,
+                    "full_output": "Job Successfully submitted, job ID: 7685ffc0-93ac-47b8-8741-8a350827817b\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 276 milliseconds\nComputation time: 86 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-51_8/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-52-59",
+                "query_res": {
+                    "elapsed_time": 279,
+                    "computation_time": 53,
+                    "full_output": "Job Successfully submitted, job ID: 80507ab3-1d5f-4351-8091-b9d98dd66436\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 279 milliseconds\nComputation time: 53 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-51_8/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-53-00",
+                "query_res": {
+                    "elapsed_time": 273,
+                    "computation_time": 105,
+                    "full_output": "Job Successfully submitted, job ID: d5fef2bf-7c44-4651-946d-98a86606a31c\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 273 milliseconds\nComputation time: 105 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-51_8/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-53-01",
+                "query_res": {
+                    "elapsed_time": 272,
+                    "computation_time": 67,
+                    "full_output": "Job Successfully submitted, job ID: 8951ef7e-9d47-458b-beec-92593f81710f\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 272 milliseconds\nComputation time: 67 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-51_8/\n"
+                }
+            },
+            {
+                "time": "2024-01-03_14-53-02",
+                "query_res": {
+                    "elapsed_time": 273,
+                    "computation_time": 80,
+                    "full_output": "Job Successfully submitted, job ID: 80e5e908-5f27-4405-9d97-c7b55aaff036\nJob in queue, waiting for it to start\n\nProgress: [##################################################] 100.00%\nJob done - total elapsed time: 273 milliseconds\nComputation time: 80 milliseconds\nResult can be found in: results/2024-01-03_14-50-08/2024-01-03_14-52-51_8/\n"
+                }
+            }
+        ],
+        "time_end_readable": "2024-01-03_14-53-02",
+        "time_end_epoch": 1704289982
+    }
+}
