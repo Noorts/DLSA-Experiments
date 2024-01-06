@@ -245,7 +245,7 @@ checksum = "431c7b478ccb1e2551a8dc05a628797c6808c1e243531fcc275f975678234159"
 [[package]]
 name = "sw"
 version = "0.1.0"
-source = "git+https://github.com/Noorts/DLSA.git#bf034339a436c9c9627ff4d0ed35a0ec16563fe4"
+source = "git+https://github.com/Noorts/DLSA.git#c9e0445b8768821e67d1f615f0acdd5a51eed52c"
 dependencies = [
  "argminmax",
  "crossbeam",

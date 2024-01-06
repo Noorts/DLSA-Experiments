@@ -12,12 +12,19 @@ plt.style.use([
     os.path.join(os.path.dirname(__file__), "../resources/twocolumn.mplstyle"),
 ])
 
-RESULT_DIR = os.path.join(os.path.dirname(__file__), "../../algorithm-experiment/results/")
+RESULT_DIR = os.path.join(os.path.dirname(__file__), "../../LOCAL/algorithm_unknown/")
 
 def amdahl(s, p):
     return 1 / ((1-p) + (p/s))
 
 def main():
+    if len(sys.argv) > 1:
+        print("Using result directory", sys.argv[1])
+        global RESULT_DIR
+        RESULT_DIR = sys.argv[1]
+    else:
+        print("No result directory provided, assuming", RESULT_DIR)
+
     plot_lane_scaling("simd_lanes", "equal")
     plot_lane_scaling("simd_lanes_ringbuf", "equal")
     plot_lane_scaling_input("simd_lanes_ringbuf")

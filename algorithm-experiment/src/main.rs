@@ -33,6 +33,13 @@ type AlignFn = fn(&[char], &[char], AlignmentScores) -> AlignResult;
 const NEUCLEOTIDES: [char; 4] = ['A', 'C', 'G', 'T'];
 
 fn main() {
+    let platform = std::env::var("PLATFORM").unwrap_or("LOCAL".to_string());
+    let result_dir = PathBuf::from("..")
+        .join(platform.to_uppercase())
+        .join(format!(
+            "algorithm_{}",
+            sw::get_version().unwrap_or("unknown")
+        ));
     let query: Vec<char> = std::iter::repeat('A').take(QUERY_SIZE).collect();
 
     let target_disjoint: Vec<char> = std::iter::repeat('G').take(TARGET_SIZE).collect();
@@ -69,10 +76,7 @@ fn main() {
     for (target_name, target) in &targets {
         for (name, alg) in &algs {
             let measurement = benchmark(name, *alg, &query, &target, scores);
-            let path = PathBuf::from(format!(
-                "results/simd_lanes_ringbuf/{}/{}.json",
-                target_name, name
-            ));
+            let path = result_dir.join(format!("simd_lanes_ringbuf/{}/{}.json", target_name, name));
 
             ensure_directory(&path);
 
@@ -97,7 +101,7 @@ fn main() {
     for (target_name, target) in &targets {
         for (name, alg) in &algs {
             let measurement = benchmark(name, *alg, &query, &target, scores);
-            let path = PathBuf::from(format!("results/simd_lanes/{target_name}/{}.json", name));
+            let path = result_dir.join(format!("simd_lanes/{target_name}/{}.json", name));
             ensure_directory(&path);
             let mut file = File::create(&path).expect("Could not open result file");
             let data =
@@ -115,7 +119,7 @@ fn main() {
         &target_equal,
         scores,
     );
-    let path = PathBuf::from("results/sequential.json");
+    let path = result_dir.join("sequential.json");
     ensure_directory(&path);
     let mut file = File::create(&path).expect("Could not open result file");
     let data = serde_json::to_string(&measurement).expect("Could not convert measurement to json");
