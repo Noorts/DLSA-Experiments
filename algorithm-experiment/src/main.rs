@@ -25,7 +25,7 @@ const WARMUP: usize = 10;
 const ITER_PER_SAMPLE: usize = 10;
 const SAMPLES: usize = 100;
 const QUERY_SIZE: usize = 64 * 5;
-const TARGET_SIZE: usize = 1024 * 32;
+const TARGET_SIZE: usize = 1024 * 128;
 
 type AlignResult = (Vec<char>, Vec<char>, i16, usize, usize);
 type AlignFn = fn(&[char], &[char], AlignmentScores) -> AlignResult;
