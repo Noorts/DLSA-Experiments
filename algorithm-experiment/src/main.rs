@@ -33,13 +33,25 @@ type AlignFn = fn(&[char], &[char], AlignmentScores) -> AlignResult;
 const NEUCLEOTIDES: [char; 4] = ['A', 'C', 'G', 'T'];
 
 fn main() {
-    let platform = std::env::var("PLATFORM").unwrap_or("LOCAL".to_string());
+    let platform = std::env::var("PLATFORM").unwrap_or("Local".to_string());
     let result_dir = PathBuf::from("..")
         .join(platform.to_uppercase())
         .join(format!(
             "algorithm_{}",
             sw::get_version().unwrap_or("unknown")
         ));
+
+    println!("Running DLSA version: {}", sw::get_version().unwrap_or("unknown"));
+    println!("Platform: {}", platform);
+    println!("Writing results to: {}", result_dir.display());
+
+    println!("\nExperiment parameters");
+    println!("Warmup iterations: {}", WARMUP);
+    println!("Iterations per sample: {}", ITER_PER_SAMPLE);
+    println!("Samples: {}", SAMPLES);
+    println!("Query size: {}", QUERY_SIZE);
+    println!("Target size: {}", TARGET_SIZE);
+
     let query: Vec<char> = std::iter::repeat('A').take(QUERY_SIZE).collect();
 
     let target_disjoint: Vec<char> = std::iter::repeat('G').take(TARGET_SIZE).collect();
