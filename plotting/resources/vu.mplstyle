@@ -13,5 +13,7 @@ font.family: DIN Pro
 font.sans-serif: DIN Pro
 font.serif: DIN Pro
 
+legend.fontsize: "small"
+
 axes.prop_cycle    : cycler('color', ['0077B3', '4FAF48', 'E8692D', '8E4DA4', 'F2BA2F', 'D4CAC8', '575756', '003F6C'])
 
