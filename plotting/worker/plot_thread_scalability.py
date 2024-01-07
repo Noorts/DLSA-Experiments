@@ -97,4 +97,4 @@ plt.xticks([2 ** i for i in range(4)])
 plt.yticks([20 * i for i in range(5)])
 
 plt.tight_layout()
-plt.savefig("plotting/strong_scalability_percentage_threads.png")
+plt.savefig("./strong_scalability_percentage_threads.png")

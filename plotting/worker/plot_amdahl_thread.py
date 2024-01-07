@@ -3,6 +3,7 @@ import numpy as np
 import scipy.optimize
 import json
 import copy
+import os
 
 def amdahl(s, p):
     return 1 / ((1-p) + (p/s))
@@ -42,6 +43,11 @@ for i in range(len(s1)):
     std_devs.append(np.std([t_rust_XL_speedup[i], t_rust_speedup[i], t_8_speedup[i], t_16_speedup[i], t_32_speedup[i]]))
 
 
+plt.style.use([
+    os.path.join(os.path.dirname(__file__), "../resources/vu.mplstyle"),
+    os.path.join(os.path.dirname(__file__), "../resources/twocolumn.mplstyle"),
+])
+
 popt, pcov = scipy.optimize.curve_fit(amdahl, s1, average_speedups)
 print("popt", popt, "pcov", pcov)
 
@@ -52,6 +58,12 @@ marker_size = 20
 colors = ['#0077B3', '#4FAF48', '#E8692D', '#8E4DA4', '#F2BA2F', '#D4CAC8', '#575756', '#003F6C']
 
 plt.figure(figsize=(4, 3), dpi=600)
+
+all_speedups = np.concatenate([t_rust_XL_speedup, t_rust_speedup, t_8_speedup, t_16_speedup, t_32_speedup])
+buffer = 0.1 
+lower_lim = max(min(all_speedups) - buffer, 0)  
+upper_lim = max(all_speedups) + buffer
+
 
 
 
@@ -66,7 +78,6 @@ plt.scatter(s1, t_32_speedup, color=colors[6], s = marker_size, label="Synthetic
 #              fmt='D', markersize=2, markerfacecolor='none', markeredgewidth=1, 
 #              capsize=5, label='Average Speedup w/ Std Dev', alpha=1)
 
-
 n1 = np.linspace(s1[0], s1[-1], 100000)
 plt.plot(n1, amdahl(n1, *popt), color=colors[1], ls="--", label=f"Amdahl's Law (p={round(popt[0], 2)})", alpha=1.0)
 
@@ -76,7 +87,7 @@ plt.legend(loc='upper left', fontsize = 6, )
 plt.xlabel("Number of Cores")
 plt.ylabel("Speedup")
 plt.xticks([2 ** i for i in range(4)])
-plt.ylim(0, 8)
+plt.ylim(lower_lim, upper_lim)
 
 plt.tight_layout()
-plt.savefig("plotting/strong_scalability_amdahls_threads.png")
+plt.savefig("./strong_scalability_amdahls_threads.png")
