@@ -3,6 +3,14 @@ import numpy as np
 import scipy.optimize
 import json
 import copy
+import os
+
+FIGURE_DIR = os.path.join(os.path.dirname(__file__), "../../figures/")
+
+plt.style.use([
+    os.path.join(os.path.dirname(__file__), "../resources/vu.mplstyle"),
+    os.path.join(os.path.dirname(__file__), "../resources/twocolumn.mplstyle"),
+])
 
 def amdahl(s, p):
     return 1 / ((1-p) + (p/s))
@@ -52,32 +60,32 @@ def parse_results(json_file_path):
 
 ### CREATE PLOT ###
 
-# with plt.style.context(["~/dev/latexclass/matplotlib/vu.mplstyle", "~/dev/latexclass/matplotlib/twocolumn.mplstyle"]):
-colors = ['#0077B3', '#4FAF48', '#E8692D', '#8E4DA4', '#F2BA2F', '#D4CAC8', '#575756', '#003F6C']
+fig = plt.figure()
 
-plt.figure(figsize=(4, 3), dpi=600)
+ax = fig.add_subplot(1, 1, 1)
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_988e281_synthetic_32000/result_2024-01-02_12-06-09_combined.json')
-plt.plot(s, n_statistic_normalized, color=colors[1], label=f"Synthetic 32.000", marker='o', linestyle='-')
+ax.plot(s, n_statistic_normalized, label=f"Synthetic 32000", marker='o', linestyle='-')
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_988e281_synthetic_16000/result_2024-01-02_10-10-23.json')
-plt.plot(s, n_statistic_normalized, color=colors[0], label=f"Synthetic 16.000", marker='o', linestyle='-')
+ax.plot(s, n_statistic_normalized, label=f"Synthetic 16000", marker='o', linestyle='-')
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_4a8ac27_synthetic_8000/result_2023-12-27_14-34-28.json')
-plt.plot(s, n_statistic_normalized, color=colors[2], label=f"Synthetic 8.000", marker='o', linestyle='-')
+ax.plot(s, n_statistic_normalized, label=f"Synthetic 8000", marker='o', linestyle='-')
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_f748803_XL/result_2023-12-26_12-49-59.json')
-plt.plot(s, n_statistic_normalized, color=colors[3], label=f"Extra Large", marker='o', linestyle='-')
+ax.plot(s, n_statistic_normalized, label=f"Extra Large", marker='o', linestyle='-')
 
 (s, n, n_statistic, n_statistic_normalized) = parse_results('./DAS5/strong_scalability_988e281_large/result_2024-01-02_09-41-58.json')
-plt.plot(s, n_statistic_normalized, color=colors[4], label=f"Large", marker='o', linestyle='-')
+ax.plot(s, n_statistic_normalized, label=f"Large", marker='o', linestyle='-')
 
-plt.legend()
-plt.title("Strong Scalability")
-plt.xlabel("Number of Nodes")
-plt.ylabel("Parallel Efficiency (%)")
-plt.xticks([2 ** i for i in range(5)])
-plt.yticks([20 * i for i in range(6)])
+ax.set_xlabel("Number of Nodes")
+ax.set_ylabel("Parallel Efficiency (%)")
+ax.set_xticks([2 ** i for i in range(5)])
+ax.set_yticks([20 * i for i in range(6)])
 
-plt.tight_layout()
-plt.savefig("plotting/strong_scalability_percentage.png")
+fig.legend()
+
+fig.tight_layout()
+plt.savefig(os.path.join(FIGURE_DIR, "strong_scalability_percentage.pdf"))
+plt.show()
