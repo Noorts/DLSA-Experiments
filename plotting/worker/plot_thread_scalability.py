@@ -103,7 +103,7 @@ plt.legend()
 plt.xlabel("Number of Cores")
 plt.ylabel("Parallel Efficiency (%)")
 plt.xticks([2 ** i for i in range(4)])
-plt.yticks([20 * i for i in range(5)])
+plt.yticks([20 * i for i in range(6)])
 
 plt.tight_layout()
 plt.savefig(os.path.join(FIGURE_DIR, "strong_scalability_percentage_threads.pdf"))
