@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
+from matplotlib.lines import Line2D
 import json
 import numpy as np
 import scipy as sp
@@ -16,6 +17,8 @@ plt.style.use([
 RESULT_DIR = os.path.join(os.path.dirname(__file__), "../../LOCAL/algorithm_unknown/")
 FIGURE_DIR = os.path.join(os.path.dirname(__file__), "../../figures/")
 
+LANE_COUNT = 32
+
 def amdahl(s, p):
     return 1 / ((1-p) + (p/s))
 
@@ -27,11 +30,89 @@ def main():
     else:
         print("No result directory provided, assuming", RESULT_DIR)
 
-    plot_lane_scaling("simd", "equal")
-    plot_lane_scaling("simd_ringbuf", "equal")
-    plot_lane_scaling_input("simd_ringbuf")
+    plot_lane_scaling_target("simd_lanes_ringbuf")
 
     plt.show()
+
+def plot_lane_scaling_target(directory):
+    sequential_result = read_file(os.path.join(RESULT_DIR, "sequential.json"))
+    sequential_cups = get_cups(sequential_result) / 1e6
+
+    # Create (emtpy) figure
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.set_xlabel("Lane count")
+    ax.set_ylabel("Speedup")
+    ax.yaxis.set_minor_locator(MultipleLocator(1))
+
+    colors = plt.rcParams["axes.prop_cycle"].by_key()["color"]
+    plot_colors = {
+        "disjoint": colors[0],
+        "random": colors[1],
+        "equal": colors[2],
+    }
+
+    plot_markers = {
+        "disjoint": "x",
+        "random": ".",
+        "equal": "*",
+    }
+
+    for target_name in ["disjoint", "random", "equal"]:
+        files = [
+            (1, f"{directory}/{target_name}/01.json"),
+            (2, f"{directory}/{target_name}/02.json"),
+            (4, f"{directory}/{target_name}/04.json"),
+            (8, f"{directory}/{target_name}/08.json"),
+            (16, f"{directory}/{target_name}/16.json"),
+            (32, f"{directory}/{target_name}/32.json"),
+            (64, f"{directory}/{target_name}/64.json"),
+        ]
+
+        measurements = [(name, read_file(os.path.join(RESULT_DIR, file))) for (name, file) in files]
+
+        lane_counts = np.array([name for name, _ in measurements])
+        mcups = np.array([get_cups(measurement) / 1e6 for _, measurement in measurements]).T
+
+        median = np.median(mcups, axis=0)
+        speedup = median / sequential_cups[0]
+
+        # CI errorbar
+        res = stats.bootstrap((mcups,), np.median, confidence_level=0.99)
+        lower_bound = (median - res.confidence_interval.low) / sequential_cups[0]
+        upper_bound = (res.confidence_interval.high - median) / sequential_cups[0]
+        yerr = np.vstack((lower_bound, upper_bound))
+
+        ax.errorbar(lane_counts, speedup, yerr=yerr, fmt=plot_markers[target_name], capsize=3, color=plot_colors[target_name], label=target_name)
+
+        # Fit Amdahl's law
+        fit_until_index = list(lane_counts).index(LANE_COUNT) + 1
+
+        normalized_mcups = median / median[0]
+        popt, pcov = sp.optimize.curve_fit(amdahl, lane_counts[:fit_until_index], normalized_mcups[:fit_until_index])
+        cont_lane_count = np.linspace(lane_counts[0], lane_counts[-1], 100000)
+        ax.plot(cont_lane_count, amdahl(cont_lane_count, *popt) * median[0] / sequential_cups[0], ls="--", color=plot_colors[target_name])
+
+        print("Amdahl's law fit", target_name, popt[0])
+
+    # Set x-ticks and labels
+    ax.set_xticks(lane_counts)
+    labels = [str(lane_count) if lane_count != 2 else "" for lane_count in lane_counts]
+    ax.set_xticklabels(labels)
+
+    # Linear axis
+    lim = ax.get_ylim()
+    ax.plot([0, lane_counts[-1]], [0, lane_counts[-1]], ls="--", label="Linear scaling")
+    ax.set_ylim(lim)
+
+    # Add Amdahl's law label to legend
+    handles, labels = ax.get_legend_handles_labels()
+    handles.append(Line2D([0], [0], color="black", ls='--', label="Amdahl's law fit"))
+    ax.legend(handles=handles, loc='lower right')
+
+    fig.tight_layout()
+    fig.savefig(os.path.join(FIGURE_DIR, f"lane_scaling_target_{directory}.pdf"))
+
 
 def plot_lane_scaling_input(directory):
     sequential_result = read_file(os.path.join(RESULT_DIR, "sequential.json"))
