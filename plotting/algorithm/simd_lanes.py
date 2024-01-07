@@ -13,6 +13,7 @@ plt.style.use([
 ])
 
 RESULT_DIR = os.path.join(os.path.dirname(__file__), "../../LOCAL/algorithm_unknown/")
+FIGURE_DIR = os.path.join(os.path.dirname(__file__), "../../figures/")
 
 def amdahl(s, p):
     return 1 / ((1-p) + (p/s))
@@ -25,9 +26,9 @@ def main():
     else:
         print("No result directory provided, assuming", RESULT_DIR)
 
-    plot_lane_scaling("simd_lanes", "equal")
-    plot_lane_scaling("simd_lanes_ringbuf", "equal")
-    plot_lane_scaling_input("simd_lanes_ringbuf")
+    plot_lane_scaling("simd", "equal")
+    plot_lane_scaling("simd_ringbuf", "equal")
+    plot_lane_scaling_input("simd_ringbuf")
 
     plt.show()
 
@@ -70,6 +71,7 @@ def plot_lane_scaling_input(directory):
 
     ax.legend()
     fig.tight_layout()
+    fig.savefig(os.path.join(FIGURE_DIR, f"lane_scaling_target_{directory}.pdf"))
 
 def plot_lane_scaling(directory, target_name):
     sequential_result = read_file(os.path.join(RESULT_DIR, "sequential.json"))
@@ -130,6 +132,7 @@ def plot_lane_scaling(directory, target_name):
 
     ax.legend()
     fig.tight_layout()
+    fig.savefig(os.path.join(FIGURE_DIR, f"lane_scaling_{directory}_{target_name}.pdf"))
 
 def plot_histogram(data):
     plt.hist(data["times"], bins = 100)
