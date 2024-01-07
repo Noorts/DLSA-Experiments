@@ -5,6 +5,8 @@ import json
 import copy
 import os
 
+FIGURE_DIR = os.path.join(os.path.dirname(__file__), "../../figures/")
+
 def amdahl(s, p):
     return 1 / ((1-p) + (p/s))
 
@@ -81,13 +83,13 @@ plt.scatter(s1, t_32_speedup, color=colors[6], s = marker_size, label="Synthetic
 n1 = np.linspace(s1[0], s1[-1], 100000)
 plt.plot(n1, amdahl(n1, *popt), color=colors[1], ls="--", label=f"Amdahl's Law (p={round(popt[0], 2)})", alpha=1.0)
 
-plt.plot([s1[0], s1[-1]], [s1[0], s1[-1]], color=colors[0], label="Linear Speedup")
+plt.plot([s1[0], s1[-1]], [s1[0], s1[-1]], color=colors[0], label="Linear Speed-up")
 plt.legend(loc='upper left', fontsize = 6, )
 
 plt.xlabel("Number of Cores")
-plt.ylabel("Speedup")
+plt.ylabel("Speed-up")
 plt.xticks([2 ** i for i in range(4)])
 plt.ylim(lower_lim, upper_lim)
 
 plt.tight_layout()
-plt.savefig("./strong_scalability_amdahls_threads.png")
+plt.savefig(os.path.join(FIGURE_DIR, "strong_scalability_amdahls_threads.pdf"))

@@ -4,6 +4,15 @@ import scipy.optimize
 import json
 import copy
 
+import os
+
+FIGURE_DIR = os.path.join(os.path.dirname(__file__), "../../figures/")
+
+plt.style.use([
+    os.path.join(os.path.dirname(__file__), "../resources/vu.mplstyle"),
+    os.path.join(os.path.dirname(__file__), "../resources/twocolumn.mplstyle"),
+])
+
 def amdahl(s, p):
     return 1 / ((1-p) + (p/s))
 
@@ -97,4 +106,4 @@ plt.xticks([2 ** i for i in range(4)])
 plt.yticks([20 * i for i in range(5)])
 
 plt.tight_layout()
-plt.savefig("./strong_scalability_percentage_threads.png")
+plt.savefig(os.path.join(FIGURE_DIR, "strong_scalability_percentage_threads.pdf"))
