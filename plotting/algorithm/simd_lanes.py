@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import matplotlib.pyplot as plt
+from matplotlib.ticker import MultipleLocator
 import json
 import numpy as np
 import scipy as sp
@@ -41,6 +42,7 @@ def plot_lane_scaling_input(directory):
     ax = fig.add_subplot(111)
     ax.set_xlabel("Lane count")
     ax.set_ylabel("MCUPS")
+    ax.yaxis.set_minor_locator(MultipleLocator(1000))
 
     for target_name in ["disjoint", "random", "equal"]:
         files = [
@@ -60,16 +62,27 @@ def plot_lane_scaling_input(directory):
 
         print(len(lane_counts), len(mcups))
         median = np.median(mcups, axis=0)
-        upper_bound = np.max(mcups, axis=0) - median
-        lower_bound = median - np.min(mcups, axis=0)
+
+        # Min/max errorbar
+        # upper_bound = np.max(mcups, axis=0) - median
+        # lower_bound = median - np.min(mcups, axis=0)
+        # yerr = np.vstack((lower_bound, upper_bound))
+
+        # CI errorbar
+        res = stats.bootstrap((mcups,), np.median, confidence_level=0.99)
+        lower_bound = median - res.confidence_interval.low
+        upper_bound = res.confidence_interval.high - median
         yerr = np.vstack((lower_bound, upper_bound))
+
         ax.errorbar(lane_counts, median, yerr=yerr, fmt=".", capsize=3, label=target_name)
         # ax.errorbar(lane_counts, median, yerr=yerr, fmt=None, label=target_name)
 
     ax.axhline(np.median(sequential_cups), label="Sequential", ls="--", color="black")
     ax.set_xticks(lane_counts)
+    labels = [str(lane_count) if lane_count != 2 else "" for lane_count in lane_counts]
+    ax.set_xticklabels(labels)
 
-    ax.legend()
+    ax.legend(loc="lower right")
     fig.tight_layout()
     fig.savefig(os.path.join(FIGURE_DIR, f"lane_scaling_target_{directory}.pdf"))
 
@@ -99,6 +112,11 @@ def plot_lane_scaling(directory, target_name):
     fig = plt.figure()
     ax = fig.add_subplot(111)
     ax.boxplot(mcups, positions=lane_counts, notch=True, widths=3)
+    ax.set_xticks(lane_counts)
+    labels = [str(lane_count) if lane_count != 2 else "" for lane_count in lane_counts]
+    ax.set_xticklabels(labels)
+    ax.yaxis.set_minor_locator(MultipleLocator(1))
+
     ax.set_xlabel("Lane count")
     ax.set_ylabel("Speedup")
 
@@ -129,8 +147,9 @@ def plot_lane_scaling(directory, target_name):
     ax_min, ax_max = ax.get_ylim()
     ax2.set_ylim(ax_min * time_normalize_var, ax_max * time_normalize_var)
     ax2.set_ylabel("MCUPS")
+    ax2.yaxis.set_minor_locator(MultipleLocator(1000))
 
-    ax.legend()
+    ax.legend(loc="lower right")
     fig.tight_layout()
     fig.savefig(os.path.join(FIGURE_DIR, f"lane_scaling_{directory}_{target_name}.pdf"))
 
