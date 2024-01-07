@@ -42,7 +42,7 @@ def plot_lane_scaling_target(directory):
     fig = plt.figure()
     ax = fig.add_subplot(111)
     ax.set_xlabel("Lane count")
-    ax.set_ylabel("Speedup")
+    ax.set_ylabel("Speed-up")
     ax.yaxis.set_minor_locator(MultipleLocator(1))
 
     colors = plt.rcParams["axes.prop_cycle"].by_key()["color"]
@@ -90,8 +90,18 @@ def plot_lane_scaling_target(directory):
 
         normalized_mcups = median / median[0]
         popt, pcov = sp.optimize.curve_fit(amdahl, lane_counts[:fit_until_index], normalized_mcups[:fit_until_index])
-        cont_lane_count = np.linspace(lane_counts[0], lane_counts[-1], 100000)
-        ax.plot(cont_lane_count, amdahl(cont_lane_count, *popt) * median[0] / sequential_cups[0], ls="--", color=plot_colors[target_name])
+
+        interpolated_lane_count = np.linspace(lane_counts[0], LANE_COUNT, 100000)
+        extrapolated_lane_count = np.linspace(LANE_COUNT, lane_counts[-1], 100000)
+
+        ax.plot(
+            interpolated_lane_count, amdahl(interpolated_lane_count, *popt) * median[0] / sequential_cups[0],
+            ls="--", color=plot_colors[target_name]
+        )
+        ax.plot(
+            extrapolated_lane_count, amdahl(extrapolated_lane_count, *popt) * median[0] / sequential_cups[0],
+            ls=":", color=plot_colors[target_name]
+	)
 
         print("Amdahl's law fit", target_name, popt[0])
 
@@ -100,16 +110,19 @@ def plot_lane_scaling_target(directory):
     labels = [str(lane_count) if lane_count != 2 else "" for lane_count in lane_counts]
     ax.set_xticklabels(labels)
 
-    # Linear axis
     lim = ax.get_ylim()
-    ax.plot([0, lane_counts[-1]], [0, lane_counts[-1]], ls="--", label="Linear scaling")
+    handles, labels = ax.get_legend_handles_labels()
+
+    # Linear scaling
+    linear_color = colors[4]
+    ax.plot([0, lane_counts[-1]], [0, lane_counts[-1]], color=linear_color)
     ax.set_ylim(lim)
 
-    # Add Amdahl's law label to legend
-    handles, labels = ax.get_legend_handles_labels()
+    # Add labels to legend
+    handles.append(Line2D([0], [0], color=linear_color, label="linear scaling"))
     handles.append(Line2D([0], [0], color="black", ls='--', label="Amdahl's law fit"))
-    ax.legend(handles=handles, loc='lower right')
 
+    ax.legend(handles=handles, loc='lower right')
     fig.tight_layout()
     fig.savefig(os.path.join(FIGURE_DIR, f"lane_scaling_target_{directory}.pdf"))
 
