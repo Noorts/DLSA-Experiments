@@ -3,6 +3,16 @@ import numpy as np
 import scipy.optimize
 import json
 import copy
+import os
+from scipy import stats
+
+
+FIGURE_DIR = os.path.join(os.path.dirname(__file__), "../../figures/")
+
+plt.style.use([
+    os.path.join(os.path.dirname(__file__), "../resources/vu.mplstyle"),
+    os.path.join(os.path.dirname(__file__), "../resources/twocolumn.mplstyle"),
+])
 
 def amdahl(s, p):
     return 1 / ((1-p) + (p/s))
@@ -53,13 +63,16 @@ n_normalized = n_statistic[0] / n # All the individual measurements (not the sta
 # Standard deviation of the speed up measurements.
 n_std = [np.std(arr) for arr in n_normalized]
 
+res = stats.bootstrap((n_normalized.T,), np.median, confidence_level=0.95)
+median = np.median(n_normalized, axis=1)
+lower_bound = (median - res.confidence_interval.low)
+upper_bound = (res.confidence_interval.high - median)
+yerr = np.vstack((lower_bound, upper_bound))
 
 ### CREATE PLOT ###
 
-# with plt.style.context(["~/dev/latexclass/matplotlib/vu.mplstyle", "~/dev/latexclass/matplotlib/twocolumn.mplstyle"]):
-colors = ['#0077B3', '#4FAF48', '#E8692D', '#8E4DA4', '#F2BA2F', '#D4CAC8', '#575756', '#003F6C']
-
-plt.figure(figsize=(4, 3), dpi=600)
+fig = plt.figure()
+ax = fig.add_subplot(111)
 
 # Enable if you want to plot the individual measurements.
 # for index, iteration in enumerate(list(zip(*n_normalized))):
@@ -71,18 +84,20 @@ plt.figure(figsize=(4, 3), dpi=600)
 popt, pcov = scipy.optimize.curve_fit(amdahl, s, n_statistic_normalized)
 print("popt", popt, "pcov", pcov)
 
-plt.errorbar(s, n_statistic_normalized, yerr=n_std, color=colors[1], fmt="o", label="Median (with std.dev.)", capsize=3) # Or fmt="_" for a standard error bar.
+ax.errorbar(s, n_statistic_normalized, yerr=yerr, fmt=".", label="Median") # Or fmt="_" for a standard error bar.
 n1 = np.linspace(s[0], s[-1], 100000)
-plt.plot(n1, amdahl(n1, *popt), color=colors[1], ls="--", label=f"Amdahl's Law (p={round(popt[0], 2)})")
+ax.plot(n1, amdahl(n1, *popt), ls="--", label=f"Amdahl's Law")
 
-plt.plot([s[0], s[-1]], [s[0], s[-1]], color=colors[0], label="Linear Speedup")
-plt.legend()
 
-plt.title("Strong Scalability (32.000 alignments)")
-plt.xlabel("Number of Nodes")
-plt.ylabel("Speed up")
-plt.xticks([2 ** i for i in range(5)])
-plt.ylim(0, 4)
+ax.set_xlabel("Number of Nodes")
+ax.set_ylabel("Speed-up")
+ax.set_xticks([2 ** i for i in range(5)])
 
-plt.tight_layout()
-plt.savefig("plotting/strong_scalability_amdahls.png")
+lim = ax.get_ylim()
+ax.plot([s[0], s[-1]], [s[0], s[-1]], label="Linear Speedup")
+ax.set_ylim(lim)
+
+ax.legend()
+fig.tight_layout()
+fig.savefig(os.path.join(FIGURE_DIR, "strong_scalability_amdahls.pdf"))
+plt.show()

@@ -36,10 +36,11 @@ def parse_results(json_file_path):
     s = list(s_raw.keys())
     n = [s_raw[key] for key in s]
 
-    n_statistic = np.median(n, axis=1)
+    n_mean = np.mean(n, axis=1)
+    n_median = np.median(n, axis=1)
     n_std = [np.std(arr) for arr in n]
 
-    return (s, n, n_statistic, n_std)
+    return (s, n, n_mean, n_median, n_std)
 
 results_datasets = [
     'competition/competition_extra_large/result_2024-01-03_14-54-30.json',
@@ -51,16 +52,16 @@ results_datasets = [
 print("Elapsed time in milliseconds.")
 
 for outer_index, dataset in enumerate(["XL", "L", "M", "S"]):
-    (s, n, n_statistic, n_std) = parse_results(results_datasets[outer_index])
+    (s, n, n_mean, n_median, n_std) = parse_results(results_datasets[outer_index])
     print("Dataset", dataset)
     for index, n_workers in enumerate([1, 2, 4, 8]): # Hardcoded n_workers in results.
-        print("  Workers:", n_workers, "Median:", n_statistic[index], "Std.dev.:", n_std[index])
+        print("  Workers:", n_workers, "Mean:", n_mean[index], "Median:", n_median[index], "Std.dev.:", n_std[index])
 
 for outer_index, dataset in enumerate(["XL", "L", "M", "S"]):
-    (s, n, n_statistic, n_std) = parse_results(results_datasets[outer_index])
+    (s, n, n_mean, n_median, n_std) = parse_results(results_datasets[outer_index])
     print("Groups of n_workers:", s)
     print("Individual measurements grouped by n_workers:", n)
     print("Dataset", dataset)
     for index, n_workers in enumerate([1, 2, 4, 8]): # Hardcoded n_workers in results.
-        print("  Workers:", n_workers, "Median:", n_statistic[index], "Std.dev.:", n_std[index])
+        print("  Workers:", n_workers, "Mean:", n_mean[index], "Median:", n_median[index], "Std.dev.:", n_std[index])
 

@@ -83,7 +83,7 @@ def plot_lane_scaling_target(directory):
         upper_bound = (res.confidence_interval.high - median) / sequential_cups[0]
         yerr = np.vstack((lower_bound, upper_bound))
 
-        ax.errorbar(lane_counts, speedup, yerr=yerr, fmt=plot_markers[target_name], capsize=3, color=plot_colors[target_name], label=target_name)
+        ax.errorbar(lane_counts, speedup, yerr=yerr, fmt=plot_markers[target_name], color=plot_colors[target_name], label=target_name)
 
         # Fit Amdahl's law
         fit_until_index = list(lane_counts).index(LANE_COUNT) + 1
@@ -101,9 +101,9 @@ def plot_lane_scaling_target(directory):
         ax.plot(
             extrapolated_lane_count, amdahl(extrapolated_lane_count, *popt) * median[0] / sequential_cups[0],
             ls=":", color=plot_colors[target_name]
-	)
+    	)
 
-        print("Amdahl's law fit", target_name, popt[0])
+        print("Amdahl's law fit", target_name, round(popt[0]*100, 1))
 
     # Set x-ticks and labels
     ax.set_xticks(lane_counts)
@@ -168,7 +168,7 @@ def plot_lane_scaling_input(directory):
         upper_bound = res.confidence_interval.high - median
         yerr = np.vstack((lower_bound, upper_bound))
 
-        ax.errorbar(lane_counts, median, yerr=yerr, fmt=".", capsize=3, label=target_name)
+        ax.errorbar(lane_counts, median, yerr=yerr, fmt=".", label=target_name)
         # ax.errorbar(lane_counts, median, yerr=yerr, fmt=None, label=target_name)
 
     ax.axhline(np.median(sequential_cups), label="Sequential", ls="--", color="black")
