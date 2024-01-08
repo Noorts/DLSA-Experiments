@@ -1,25 +1,24 @@
 Elapsed time in milliseconds.
 Dataset XL
-  Workers: 1 Median: 136504.0 Std.dev.: 9316.513895229265
-  Workers: 2 Median: 120644.0 Std.dev.: 7258.928756366191
-  Workers: 4 Median: 115934.0 Std.dev.: 7796.467739303485
-  Workers: 8 Median: 110579.0 Std.dev.: 5204.028308916085
+  Workers: 1 Mean: 136049.8 Median: 136504.0 Std.dev.: 9316.513895229265
+  Workers: 2 Mean: 119693.1 Median: 120644.0 Std.dev.: 7258.928756366191
+  Workers: 4 Mean: 116062.7 Median: 115934.0 Std.dev.: 7796.467739303485
+  Workers: 8 Mean: 109493.4 Median: 110579.0 Std.dev.: 5204.028308916085
 Dataset L
-  Workers: 1 Median: 5671.0 Std.dev.: 135.14396027939983
-  Workers: 2 Median: 5511.5 Std.dev.: 202.7131964130604
-  Workers: 4 Median: 5545.5 Std.dev.: 265.33090660531803
-  Workers: 8 Median: 5566.5 Std.dev.: 171.12641526076564
+  Workers: 1 Mean: 5655.9 Median: 5671.0 Std.dev.: 135.14396027939983
+  Workers: 2 Mean: 5472.4 Median: 5511.5 Std.dev.: 202.7131964130604
+  Workers: 4 Mean: 5479.9 Median: 5545.5 Std.dev.: 265.33090660531803
+  Workers: 8 Mean: 5521.5 Median: 5566.5 Std.dev.: 171.12641526076564
 Dataset M
-  Workers: 1 Median: 630.0 Std.dev.: 122.00938488493415
-  Workers: 2 Median: 634.0 Std.dev.: 14.579437574886077
-  Workers: 4 Median: 654.5 Std.dev.: 71.3560789281474
-  Workers: 8 Median: 699.5 Std.dev.: 132.55187663703597
+  Workers: 1 Mean: 707.1 Median: 630.0 Std.dev.: 122.00938488493415
+  Workers: 2 Mean: 635.2 Median: 634.0 Std.dev.: 14.579437574886077
+  Workers: 4 Mean: 675.9 Median: 654.5 Std.dev.: 71.3560789281474
+  Workers: 8 Mean: 774.0 Median: 699.5 Std.dev.: 132.55187663703597
 Dataset S
-  Workers: 1 Median: 277.0 Std.dev.: 84.2759752242595
-  Workers: 2 Median: 274.0 Std.dev.: 2.0591260281974
-  Workers: 4 Median: 272.0 Std.dev.: 84.94680688525025
-  Workers: 8 Median: 273.0 Std.dev.: 2.4515301344262523
-
+  Workers: 1 Mean: 308.6 Median: 277.0 Std.dev.: 84.2759752242595
+  Workers: 2 Mean: 273.4 Median: 274.0 Std.dev.: 2.0591260281974
+  Workers: 4 Mean: 300.2 Median: 272.0 Std.dev.: 84.94680688525025
+  Workers: 8 Mean: 273.7 Median: 273.0 Std.dev.: 2.4515301344262523
 Groups of n_workers: [1, 2, 4, 8]
 Individual measurements grouped by n_workers: [array([136078, 121910, 131677, 152005, 143139, 123694, 128595, 136930,
        139246, 147224]), array([112454, 106437, 125662, 122985, 118220, 120306, 120982, 131088,
@@ -27,28 +26,28 @@ Individual measurements grouped by n_workers: [array([136078, 121910, 131677, 15
        102877, 125239]), array([113126,  98891, 110695, 110891, 110463, 118890, 109385, 111832,
        107956, 102805])]
 Dataset XL
-  Workers: 1 Median: 136504.0 Std.dev.: 9316.513895229265
-  Workers: 2 Median: 120644.0 Std.dev.: 7258.928756366191
-  Workers: 4 Median: 115934.0 Std.dev.: 7796.467739303485
-  Workers: 8 Median: 110579.0 Std.dev.: 5204.028308916085
+  Workers: 1 Mean: 136049.8 Median: 136504.0 Std.dev.: 9316.513895229265
+  Workers: 2 Mean: 119693.1 Median: 120644.0 Std.dev.: 7258.928756366191
+  Workers: 4 Mean: 116062.7 Median: 115934.0 Std.dev.: 7796.467739303485
+  Workers: 8 Mean: 109493.4 Median: 110579.0 Std.dev.: 5204.028308916085
 Groups of n_workers: [1, 2, 4, 8]
 Individual measurements grouped by n_workers: [array([5459, 5874, 5711, 5541, 5705, 5480, 5573, 5833, 5637, 5746]), array([5463, 5439, 5704, 5590, 5560, 5221, 5366, 5700, 5635, 5046]), array([4852, 5543, 5347, 5241, 5577, 5666, 5548, 5503, 5870, 5652]), array([5680, 5764, 5413, 5409, 5606, 5680, 5317, 5527, 5203, 5616])]
 Dataset L
-  Workers: 1 Median: 5671.0 Std.dev.: 135.14396027939983
-  Workers: 2 Median: 5511.5 Std.dev.: 202.7131964130604
-  Workers: 4 Median: 5545.5 Std.dev.: 265.33090660531803
-  Workers: 8 Median: 5566.5 Std.dev.: 171.12641526076564
+  Workers: 1 Mean: 5655.9 Median: 5671.0 Std.dev.: 135.14396027939983
+  Workers: 2 Mean: 5472.4 Median: 5511.5 Std.dev.: 202.7131964130604
+  Workers: 4 Mean: 5479.9 Median: 5545.5 Std.dev.: 265.33090660531803
+  Workers: 8 Mean: 5521.5 Median: 5566.5 Std.dev.: 171.12641526076564
 Groups of n_workers: [1, 2, 4, 8]
 Individual measurements grouped by n_workers: [array([900, 632, 622, 884, 896, 632, 625, 627, 628, 625]), array([634, 634, 673, 635, 621, 631, 646, 634, 620, 624]), array([660, 678, 885, 627, 675, 636, 659, 648, 641, 650]), array([651, 706, 693, 978, 905, 668, 654, 635, 920, 930])]
 Dataset M
-  Workers: 1 Median: 630.0 Std.dev.: 122.00938488493415
-  Workers: 2 Median: 634.0 Std.dev.: 14.579437574886077
-  Workers: 4 Median: 654.5 Std.dev.: 71.3560789281474
-  Workers: 8 Median: 699.5 Std.dev.: 132.55187663703597
+  Workers: 1 Mean: 707.1 Median: 630.0 Std.dev.: 122.00938488493415
+  Workers: 2 Mean: 635.2 Median: 634.0 Std.dev.: 14.579437574886077
+  Workers: 4 Mean: 675.9 Median: 654.5 Std.dev.: 71.3560789281474
+  Workers: 8 Mean: 774.0 Median: 699.5 Std.dev.: 132.55187663703597
 Groups of n_workers: [1, 2, 4, 8]
 Individual measurements grouped by n_workers: [array([310, 275, 270, 272, 293, 274, 282, 279, 272, 559]), array([277, 275, 274, 275, 271, 274, 274, 273, 271, 270]), array([272, 275, 270, 271, 270, 274, 272, 271, 555, 272]), array([274, 272, 276, 271, 271, 276, 279, 273, 272, 273])]
 Dataset S
-  Workers: 1 Median: 277.0 Std.dev.: 84.2759752242595
-  Workers: 2 Median: 274.0 Std.dev.: 2.0591260281974
-  Workers: 4 Median: 272.0 Std.dev.: 84.94680688525025
-  Workers: 8 Median: 273.0 Std.dev.: 2.4515301344262523
+  Workers: 1 Mean: 308.6 Median: 277.0 Std.dev.: 84.2759752242595
+  Workers: 2 Mean: 273.4 Median: 274.0 Std.dev.: 2.0591260281974
+  Workers: 4 Mean: 300.2 Median: 272.0 Std.dev.: 84.94680688525025
+  Workers: 8 Mean: 273.7 Median: 273.0 Std.dev.: 2.4515301344262523
