@@ -29,7 +29,7 @@ def main():
     plt.show()
 
 def plot_target_scalability():
-    fig = plt.figure()
+    fig = plt.figure(figsize=(4, 4))
 
     # Figure
     ax = fig.add_subplot(111)
