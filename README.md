@@ -1,8 +1,8 @@
-# Alignment@Home Experiment Results
+# DLSA Experiment Results
 
 ## Introduction
 
-This repository is an archive for the [Alignment@Home](https://github.com/Noorts/DLSA) project's experiments (for more information about the project see the project repository's README file). Specifically, it contains both 1) experiment setups and results, and 2) plotting code and the generated plots.
+This repository is an archive for the [DLSA](https://github.com/Noorts/DLSA) project's experiments (for more information about the project see the project repository's README file). Specifically, it contains both 1) experiment setups and results, and 2) plotting code and the generated plots.
 
 ## Contents
 
